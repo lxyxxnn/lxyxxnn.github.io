@@ -4,12 +4,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="面试题第一天, 星惗">
-    <meta name="description" content="一、将数组的length设置为0，取第一个元素会返回什么？
-设置 length &amp;#x3D; 0 会清空数组，所以会返回 undefined
+    <meta name="keywords" content="字符串相关面试题, 星惗">
+    <meta name="description" content="第0题，字符串的api
 
-二、css动画和js动画分别有哪些优缺点css动画优点
-浏览器可以对动画进行优化代码相对简单，性">
+**charAt() &amp;#x3D;&amp;#x3D;返回指定位置的字符&amp;#x3D;&amp;#x3D;var str &amp;#x3D; “abc”str.charAt(2) &amp;#x2F;&amp;#x2F;c
+
+
+
+**chartCodeA">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -23,7 +25,7 @@
 
     
 
-    <title>面试题第一天 | 星惗</title>
+    <title>字符串相关面试题 | 星惗</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -313,12 +315,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">面试题第一天</h1>
+                    <h1 class="description center-align post-title">字符串相关面试题</h1>
                 </div>
             </div>
         </div>
@@ -434,12 +436,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/js/">
-                                <span class="chip bg-color">js</span>
+                            <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                                <span class="chip bg-color">js面试题</span>
                             </a>
                         
-                            <a href="/tags/%E6%95%B0%E7%BB%84/">
-                                <span class="chip bg-color">数组</span>
+                            <a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/">
+                                <span class="chip bg-color">字符串</span>
                             </a>
                         
                     </div>
@@ -463,7 +465,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-05-12
+                    2022-05-13
                 </div>
                 
 
@@ -484,92 +486,46 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="一、将数组的length设置为0，取第一个元素会返回什么？"><a href="#一、将数组的length设置为0，取第一个元素会返回什么？" class="headerlink" title="一、将数组的length设置为0，取第一个元素会返回什么？"></a>一、将数组的length设置为0，取第一个元素会返回什么？</h2><blockquote>
-<p>设置 length &#x3D; 0 会清空数组，所以会返回 undefined</p>
-</blockquote>
-<h2 id="二、css动画和js动画分别有哪些优缺点"><a href="#二、css动画和js动画分别有哪些优缺点" class="headerlink" title="二、css动画和js动画分别有哪些优缺点"></a>二、css动画和js动画分别有哪些优缺点</h2><h3 id="css动画"><a href="#css动画" class="headerlink" title="css动画"></a>css动画</h3><h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><blockquote>
-<p>浏览器可以对动画进行优化<br>代码相对简单，<strong>性能调优方向固定</strong><br>对于帧速表现不好的低版本浏览器，css可以做到自然降级，<br>   而JS则需要撰写额外代码</p>
-</blockquote>
-<h4 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h4><blockquote>
-<p>运行过程比较弱，无法符加事件绑定回调函数<br>代码冗长，用css实现稍微复杂一点的动画css代码都会变得很笨重</p>
-</blockquote>
-<h3 id="js动画"><a href="#js动画" class="headerlink" title="js动画"></a>js动画</h3><h4 id="优点-1"><a href="#优点-1" class="headerlink" title="优点"></a>优点</h4><blockquote>
-<p>控制能力很强，可以在动画播放过程中对动画进行控制：开始，暂停，回放，终止<br>   取消都是可以做到的。<br>动画效果比css3动画丰富，比如曲线运动，冲击闪烁，视差滚动效果，<strong>只有js动画才能完成</strong><br>css3有兼容性问题，而js大多时候没有兼容性问题</p>
-</blockquote>
-<h4 id="缺点-1"><a href="#缺点-1" class="headerlink" title="缺点"></a>缺点</h4><blockquote>
-<p>代码的复杂度高于css动画<br>js代码在浏览器主线程中运行，但主线程中还有其他需要运行的js脚本，样式计算，布局<br>   绘制任务等，对其干扰会导致线程出现阻塞，造成丢帧的情况</p>
-</blockquote>
-<hr>
-<h2 id="三、前端实现动画有哪些方式"><a href="#三、前端实现动画有哪些方式" class="headerlink" title="三、前端实现动画有哪些方式"></a>三、前端实现动画有哪些方式</h2><h3 id="最常用的动画实现方式有以下几种"><a href="#最常用的动画实现方式有以下几种" class="headerlink" title="最常用的动画实现方式有以下几种"></a>最常用的动画实现方式有以下几种</h3><blockquote>
-<p>1.css3的transition属性<br>  用来设置样式的属性值是如何从一种平滑的状态过渡到另一个状态<br>  transition可以拆为四个过度属性：  </p>
-<table>
-<thead>
-<tr>
-<th>值</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>transition</td>
-<td>规定设置过渡效果的css属性的名称</td>
-</tr>
-<tr>
-<td>transition-duration</td>
-<td>规定完成过渡效果需要多少秒或毫秒</td>
-</tr>
-<tr>
-<td>transition-timing-fuction</td>
-<td>规定速度效果的速度曲线</td>
-</tr>
-<tr>
-<td>transition——delay</td>
-<td>定义过渡效果何时开始</td>
-</tr>
-<tr>
-<td><strong>演示代码</strong></td>
-<td></td>
-</tr>
-<tr>
-<td><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">div&#123;</span><br><span class="line">width:50px;</span><br><span class="line">height:50px;</span><br><span class="line">background-color:pink;</span><br><span class="line">transition:1s;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">div:hover&#123;</span><br><span class="line">width:200px;</span><br><span class="line">&#125;  </span><br></pre></td></tr></table></figure></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>transition默认属性为</strong>：transition：all 0 ease 0；</td>
-<td></td>
-</tr>
-</tbody></table>
-</blockquote>
-<hr>
-<blockquote>
-<p>2.css3的animation属性<br>  animation属性类似于flash逐帧动画，由关键帧组成，由keyframes属性完成<br>  ** animation与transition的区别：<br>  transition只需要指定动画开始和结束的状态，整个动画的过程是由整个特定的函数控制，不需要管<br>  animation可以对动画过程中各个关键帧进行设置<br>   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">div&#123;</span><br><span class="line">widht:300px;</span><br><span class="line">height:300px;</span><br><span class="line">background-color:pink;</span><br><span class="line">&#125;</span><br><span class="line">div:hover&#123;</span><br><span class="line">animation:change1 5s;</span><br><span class="line">&#125;</span><br><span class="line">@keyframes change1&#123;</span><br><span class="line">25% &#123;widht:130px;background-color:red;&#125;</span><br><span class="line">50% &#123;widht:140px;background-color:blue;&#125;</span><br><span class="line">75% &#123;widht:210px;background-color:green;&#125;</span><br><span class="line">100% &#123;width:250px;background-color:yellow;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>3.原生js动画<br>   **主要思想是通过setInterval和setTimeout方法的回调函数来持续<br>   调用改变某个元素的css样式以达到元素样式变化的效果。<br>   <strong>问题：</strong>js实现动画会导致页面频繁重排重绘，一般用在pc上，移动端会明显卡顿</p>
-</blockquote>
-<pre><code> &lt;script&gt;
- let elem = document.querySelector(&quot;#rect&quot;);
- let left = 0;
- let timer = setInterval(function() &#123;
-  if(left&lt;window.innerWidth-200) &#123;
-  elem.style.marginLeft = left +&#39;px&#39;;
-  left++;
-  &#125; else &#123;
-   clearInterval(timer);
-  &#125;
- &#125;,16)
- &lt;/script&gt;
-</code></pre>
-<p>   在很多移动端动画性能优化时，一般使用16ms来进行<strong>节流处理</strong>连续触发的浏览器事件<br>   通过这种方式减少持续事件的触发频率，提高动画流畅性</p>
-<blockquote>
-<p>4.使用canvas绘制动画<br>5.SVG动画<br>6.jquery的animate函数<br>7,使用gif图片</p>
-</blockquote>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><blockquote>
+                <h2 id="第0题，字符串的api"><a href="#第0题，字符串的api" class="headerlink" title="第0题，字符串的api"></a>第0题，字符串的api</h2><blockquote>
 <ul>
-<li>代码复杂度方面简单动画：css代码实现会简单一些，js复杂一些。 复杂动画的话：css代码就会变得冗长，js实现起来更优。</li>
+<li>**charAt() &#x3D;&#x3D;返回指定位置的字符&#x3D;&#x3D;<br>var str &#x3D; “abc”<br>str.charAt(2) &#x2F;&#x2F;c</li>
 </ul>
 </blockquote>
 <ul>
-<li>动画运行时，对动画的控制程度上 js 比较灵活，能控制动画暂停，取消，终止等css动画不能添加事件，只能设置固定节点进行什么样的过渡动画。</li>
-<li>兼容方面 css 有浏览器兼容问题js大多情况下是没有的。</li>
-<li>性能方面 css动画相对于优一些，css 动画通过GUI解析js动画需要经过js引擎代码解析，然后再进行 GUI 解析渲染。</li>
+<li>**chartCodeAt() &#x3D;&#x3D;返回在指定位置的字符Unicode编码<br>  str.chartCodeAt(1) &#x2F;&#x2F;98  </li>
+<li>**concat() &#x3D;&#x3D; 连接字符串<br>  var a&#x3D;”lxy”,b&#x3D;”csy”;<br>  var c &#x3D; a.concat(b);  &#x2F;&#x2F;lxycsy  </li>
+<li>**indexOf() &#x3D;&#x3D;检索字符串&#x3D;&#x3D;<br>  var str &#x3D; “hello myfriend”<br>  str.indexOf(“Hello”) &#x2F;&#x2F;0<br>  str indexOf(“world”) &#x2F;&#x2F;-6<br>  **区分大小写  </li>
+<li><strong>match()  &#x3D;&#x3D;在字符串内检索指定的值，或找到 正则表达式匹配的字符串，返回指定的值<br>  var str &#x3D;”1 abc 2 def 3”;<br>  str.match(&#x2F;\d+&#x2F;g) &#x2F;&#x2F;123  &#x2F;&#x2F;</strong>&#x2F;\d+&#x2F;g全局匹配数字一个或多个  </li>
+<li>**replace()  &#x3D;&#x3D; 用你指定的字符串替换str中的字符串，首先要用正则<br>找到然后替换&#x3D;&#x3D;<br>var str &#x3D; “xinnian shandi”<br>str.replace(&#x2F;xinnian&#x2F;,”xingyu”) &#x2F;&#x2F;xingyu shandi  </li>
+<li>**search() 用于检索字符串中指定子字符串，或检索与正则表达式相匹配的字符串，<br>**若忽略大小写追加标志i，没找到返回&#x3D;&#x3D;-1&#x3D;&#x3D;<br>var str &#x3D; “abc DEF”<br>str.search(&#x2F;DEF&#x2F;i) &#x2F;&#x2F;4  </li>
+<li>**slice(start,end) &#x3D;&#x3D;提出字符串的”片段“，在新的字符串中返回被提取部分<br>未指定start：  <ul>
+<li>负数：从字符串尾部开始计算起始位置，-1代表最后一个字符  </li>
+<li>-2“倒数第二个字符<br>未指定end：  </li>
+<li>负数： 从尾部开始计算  </li>
+<li>未指定：从start到字符串结尾length-1<br>var str&#x3D;”abc def ghk”<br>console.log(str.slice(6))&#x2F;&#x2F;f ghk</li>
 </ul>
+<p>	</p>
+</li>
+<li>** split()把字符串分割为字符串数组  参数位分隔符，从字符串中判断用什么作为分隔符<br>var str&#x3D;”lxy csy lyn yqn wmt“;<br>str.split(“”); &#x2F;&#x2F; [‘l’,’x’,’y’,’ ‘,’c’….,’t’]<br>str.split(“ “); &#x2F;&#x2F; [‘lxy’,’csy’…]<br>str.split(“ “,3)  &#x2F;&#x2F;分割的数组长度3  </li>
+<li>**toLocaleUpperCase()和toLowerCase()<br>  var str &#x3D; “LXY MAKE you”<br>  str.toLocaleUpperCase() &#x2F;&#x2F;LXY MAKE YOU  </li>
+<li>**sbustr(起始位置，截取数量)  从起始位置提取字符串中指定数目字符<br>  substr(start,length)<br>  start:</li>
+</ul>
+<ul>
+<li>要抽取子串的其实下表，负数代表从尾部开始提取<br>  length：可选，子串中的字符数（位数）。省略则代表从开始到结尾    <figure class="highlight plaintext"><figcaption><span>str</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br></pre></td><td class="code"><pre><span class="line">  console.log(str.substr(2))//c def</span><br><span class="line">  console.log(str.substr(2,4))// c de```</span><br><span class="line">  </span><br><span class="line">  + **subString(起始位置，截取结束点)  </span><br><span class="line">  str.subString(1,3) //&quot;bc &quot;  </span><br><span class="line">  ### Es6新增操作字符串的方法  </span><br><span class="line">  *******************  </span><br><span class="line">  &gt; ### codePointAt()  </span><br><span class="line">  let s=&#x27;李xy&#x27;  </span><br><span class="line">  s.codePointAt(0)  //李前2个字节的十进制码点  </span><br><span class="line">  s.codePointAt(1)  //李后俩个字节十进制码点  </span><br><span class="line">  s.codePointAt(2)  //字符a的ascii码  </span><br><span class="line">  ### String.fromCodePOint()  用于返回字符串从码点开始</span><br><span class="line">  es5提供String.fromCharCode方法，从码点**返回对应字符**  </span><br><span class="line">  资格方法不识别32位的 UTF-16字符</span><br><span class="line">  **String.fromCharCode不能识别大于0xFFFF的码点，0x20BB7&gt;0xFFFF最高位2被舍弃  </span><br><span class="line">  **最后返回了码点U+0BB7的字符，就是个乱码，而ES6的S他string.fromCodePoint方  </span><br><span class="line">  ** 法可以是识别大于0xFFFF的字符，弥补了fromCharCode的不足  </span><br><span class="line">  String.fromCodePoint(0x20BB7) //李  </span><br><span class="line">  ### 字符串遍历接口 for of  </span><br><span class="line">  for(let str of &#x27;abc&#x27;) &#123;  </span><br><span class="line">   console.log(str);   </span><br><span class="line">  &#125;  </span><br><span class="line">  //&quot;a&quot;  </span><br><span class="line">  //&quot;b&quot;  </span><br><span class="line">  //&quot;c&quot;  </span><br><span class="line">  可以识别Unicode编号大于0XFFFF的字符  </span><br><span class="line">  ### at() 可以识别Unicode编号大于0xFFFF的字符，返回正确字符  </span><br><span class="line">  ’abc‘.at(0) //&#x27;a&#x27;  </span><br><span class="line">  &#x27;吉&#x27;.at(0) //“吉”  </span><br><span class="line">  ### Unicode正规化  </span><br><span class="line">  采用normalize()方法 将字符*不同*的表示方法统一为同样的样式   </span><br><span class="line">    许多欧洲语言有语调符号和重音符号，为了表示它们，Unicode 提供了两种方法。一种是  </span><br><span class="line">	直接提供带重音符号的字符，比如Ǒ（u01D1）  </span><br><span class="line">	另一种是提供合成符号（combining character），即原字符与重音符号的合成，两个字符合成一个字符，  </span><br><span class="line">	比如O（u004F）和ˇ（u030C）合成Ǒ（u004Fu030C）。  </span><br><span class="line">	**’\u01D1‘ === ’\u004F\u030C‘ false</span><br><span class="line">	**&#x27;\u01D1&#x27;.normalize() === &#x27;\u004F\u030C&#x27;.normalize() true  </span><br><span class="line">  ### includes(),startWith(),endsWith()  </span><br><span class="line">  对比之前只有indexOf可以用来确定一个字符串是否包含在另一个字符串中   </span><br><span class="line">  **以上这三种方法都支持第二个参数，表示开始搜索的位置，返回类型位Boolean  </span><br><span class="line">  </span><br><span class="line">  let s = &#x27;Hello world!&#x27;; </span><br><span class="line">  s.startsWith(&#x27;Hello&#x27;) // true</span><br><span class="line">  s.startsWith(&#x27;world&#x27;, 6) // true</span><br><span class="line">  s.includes(&#x27;Hello&#x27;, 6) // false</span><br><span class="line">  </span><br><span class="line">  **其中endWidth第二个参数代表前n个字符，其他两个方法针对从第n个位置知道字符串结束  </span><br><span class="line">  ### repeat(n),返回一个新的字符串，重复了n次的原字符串    </span><br><span class="line">  n:  </span><br><span class="line">  - 3:重复三次  </span><br><span class="line">  - 2.9 取整，重复2次  </span><br><span class="line">  - 负数或infinity ：报错RangeError  </span><br><span class="line">  </span><br><span class="line">  ### padStart(a,b)，padEnd()  </span><br><span class="line">  a:不全的长度 b：填充的字符  </span><br><span class="line">  - padStart(5,ab) :在目标字符串前补充ab到够5位</span><br><span class="line">  - padEnd(5,ab) :在目标字符串后补充ab到够5位</span><br><span class="line">  - 原字符串长度大于a或等于a的长度，返回原字符串  </span><br><span class="line">  - 省略第二个参数，使用空格补全</span><br><span class="line">  **最常见的用途是位数值补全指定位数  </span><br><span class="line">  **另一种用途是提示字符串格式  </span><br><span class="line">  &#x27;12&#x27;.padStart(10,&#x27;YYYY-MM-DD&#x27;)  </span><br><span class="line">  </span><br><span class="line">  &#x27;09-12&#x27;.padStart(10, &#x27;YYYY-MM-DD&#x27;) // &quot;YYYY-09-12&quot; </span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line">  ### matchAll()  </span><br><span class="line">  返回一个遍历器，其中包含了所有匹配正则表达式和分组捕获结果  </span><br><span class="line">  **应为返回的是遍历器** 所以使用for of    </span><br><span class="line">  for(const math of &#x27;lxyacnl&#x27;.matchAll(/l/g)) &#123;  </span><br><span class="line">    console.log(match)</span><br><span class="line">  &#125;  </span><br><span class="line">  // [&quot;l&quot;,index:0],[&quot;l&quot;,index:7]  </span><br><span class="line">  </span><br><span class="line">    </span><br><span class="line">  </span><br><span class="line">  ### 字符串模板  </span><br><span class="line">  - 可以调用函数 </span><br><span class="line">  - $&#123;’字符串‘&#125; 原样输出  </span><br><span class="line">  - 可以嵌套 </span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">## 第一题，字符串相加</span><br><span class="line">&gt; **给定两个字符串形式的负整数num1，计算它们的和并同样以字符串形式返回。  </span><br><span class="line">  **示例**  </span><br><span class="line">  输入：num1 = “11”，num2 = “123” 输出：“134”</span><br><span class="line">  *思路*：定义两个指针i，j分别指向num1，num2末尾，最低位，同时定义  </span><br><span class="line">  **一个变量add**维护当前是否有进位，然后从末尾到开头逐位相加即可。  </span><br></pre></td></tr></table></figure>
+var addStrings &#x3D; function(num1,num2) {<br>let i &#x3D; num1.length - 1,j&#x3D;num2.length-1,add &#x3D; 0;<br>const ans &#x3D; [];<br>while(i&gt;&#x3D;0||j&gt;&#x3D;0||add!&#x3D;0) {<br> const x &#x3D; i&gt;&#x3D;0? num1.chartAt(i) - ‘0’ : 0;<br> const y &#x3D; j&gt;&#x3D;0? num2.chartAt(j) - ‘0’ : 0;<br> const result &#x3D; x+y+add;<br> ans.push(result%10);<br> add &#x3D; Math.floot(result &#x2F; 10);<br> i -&#x3D; 1;<br> j -&#x3D; 1;<br>}<br> return ans.reverse().join(‘’);<br>}<br>  &#96;&#96;&#96;<br> **复杂度分析<ul>
+<li>事件复杂度：O（max（len1，len2））</li>
+<li>空间复杂度：O（1）我们只需要常数空间存放若干变量const</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="第二题，写一个repeat方法，实现字符串复制拼接"><a href="#第二题，写一个repeat方法，实现字符串复制拼接" class="headerlink" title="第二题，写一个repeat方法，实现字符串复制拼接"></a>第二题，写一个repeat方法，实现字符串复制拼接</h2><blockquote>
+<h3 id="方法1：空数组join"><a href="#方法1：空数组join" class="headerlink" title="方法1：空数组join"></a>方法1：空数组join</h3><p>  function repeat(target,n) {<br>   return (new Array(n+1).join(target))<br>  }</p>
+</blockquote>
+<h3 id="方法2：无需创建数组，提高性能"><a href="#方法2：无需创建数组，提高性能" class="headerlink" title="方法2：无需创建数组，提高性能"></a>方法2：无需创建数组，提高性能</h3><p>  function repeat(target,n) {<br>  return  Array.prototype.join.call({length:n+1},target)<br>  }</p>
+<h3 id="方法3：利用闭包缓存join，避免重复创建对象，寻找方法"><a href="#方法3：利用闭包缓存join，避免重复创建对象，寻找方法" class="headerlink" title="方法3：利用闭包缓存join，避免重复创建对象，寻找方法"></a>方法3：利用闭包缓存join，避免重复创建对象，寻找方法</h3><p>  var repeat &#x3D; (function() {<br>   var join &#x3D; Array.prototype.join,obj &#x3D; {};<br>   return function(target,n) {<br>     obj.length &#x3D; n+1;<br>     return join.call(obj.target);<br>   };<br>  })  </p>
+<h3 id="使用二分法"><a href="#使用二分法" class="headerlink" title="使用二分法"></a>使用二分法</h3><p>  function repeat(target,n){<br>   var s &#x3D; target,total&#x3D;[];<br>   while(n&gt;0) {<br>    if(n%2 &#x3D;&#x3D;&#x3D; 1) {<br>     total[total.length] &#x3D; s;<br>    }<br>    if(n &#x3D;&#x3D;&#x3D;1 ) {<br>     break;<br>    }<br>    s+&#x3D;s;<br>    n &#x3D; n &gt;&gt; 1;  	<br>   }<br>   return total.join(‘’);<br>  }
+  </p>
 
                 
             </div>
@@ -596,7 +552,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://lxyxxnn.abc.efg/2022/05/12/%E6%95%B0%E7%BB%84/">https://lxyxxnn.abc.efg/2022/05/12/%E6%95%B0%E7%BB%84/</a>
+                    <a href="https://lxyxxnn.abc.efg/2022/05/13/%E7%AC%AC%E4%BA%8C%E9%A2%98%E9%82%A3%E9%9D%A2%E8%AF%95%E9%A2%98/">https://lxyxxnn.abc.efg/2022/05/13/%E7%AC%AC%E4%BA%8C%E9%A2%98%E9%82%A3%E9%9D%A2%E8%AF%95%E9%A2%98/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -634,12 +590,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/js/">
-                                    <span class="chip bg-color">js</span>
+                                <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                                    <span class="chip bg-color">js面试题</span>
                                 </a>
                             
-                                <a href="/tags/%E6%95%B0%E7%BB%84/">
-                                    <span class="chip bg-color">数组</span>
+                                <a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/">
+                                    <span class="chip bg-color">字符串</span>
                                 </a>
                             
                         </div>
@@ -813,12 +769,64 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2022/05/13/%E6%95%B0%E7%BB%84%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="数组相关面试题">
+                        
+                        <span class="card-title">数组相关面试题</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-13
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/" class="post-category">
+                                    面试题
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%95%B0%E7%BB%84/">
+                        <span class="chip bg-color">数组</span>
+                    </a>
+                    
+                    <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                        <span class="chip bg-color">js面试题</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/05/12/%E6%95%B0%E7%BB%84/">
+                <a href="/2022/05/12/%E7%AC%AC%E4%B8%80%E5%A4%A9%E9%9D%A2%E8%AF%95%E9%A2%98/">
                     <div class="card-image">
                         
                         
@@ -849,7 +857,6 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -859,55 +866,6 @@
                     
                     <a href="/tags/%E6%95%B0%E7%BB%84/">
                         <span class="chip bg-color">数组</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2022/05/12/mianshi/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="面试题1">
-                        
-                        <span class="card-title">面试题1</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-12
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/" class="post-category">
-                                    面试题
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/">
-                        <span class="chip bg-color">前端面试题</span>
                     </a>
                     
                 </div>

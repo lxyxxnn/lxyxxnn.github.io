@@ -4,11 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="面试题1, 星惗">
-    <meta name="description" content="内容1阿西吧
-三级小标题内容2阿西吧
-三级小标题三级小标题外部链接: 链接代名词
-1hello world">
+    <meta name="keywords" content="数组相关面试题, 星惗">
+    <meta name="description" content="js数组API与面试题
+javascript数组API
+创建一个数组
+Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;&amp;#x2F;[,,,]   三个元素的空数组  Array">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -22,7 +22,7 @@
 
     
 
-    <title>面试题1 | 星惗</title>
+    <title>数组相关面试题 | 星惗</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -312,12 +312,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">面试题1</h1>
+                    <h1 class="description center-align post-title">数组相关面试题</h1>
                 </div>
             </div>
         </div>
@@ -433,8 +433,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/">
-                                <span class="chip bg-color">前端面试题</span>
+                            <a href="/tags/%E6%95%B0%E7%BB%84/">
+                                <span class="chip bg-color">数组</span>
+                            </a>
+                        
+                            <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                                <span class="chip bg-color">js面试题</span>
                             </a>
                         
                     </div>
@@ -458,7 +462,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-05-12
+                    2022-05-13
                 </div>
                 
 
@@ -479,10 +483,95 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="内容1"><a href="#内容1" class="headerlink" title="内容1"></a>内容1</h2><p>阿西吧</p>
-<h3 id="三级小标题"><a href="#三级小标题" class="headerlink" title="三级小标题"></a>三级小标题</h3><h2 id="内容2"><a href="#内容2" class="headerlink" title="内容2"></a>内容2</h2><p>阿西吧</p>
-<h3 id="三级小标题-1"><a href="#三级小标题-1" class="headerlink" title="三级小标题"></a>三级小标题</h3><h3 id="三级小标题-2"><a href="#三级小标题-2" class="headerlink" title="三级小标题"></a>三级小标题</h3><p>外部链接: <a target="_blank" rel="noopener" href="https://www.baidu.com/">链接代名词</a></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello world</span><br></pre></td></tr></table></figure>
+                <h1 id="js数组API与面试题"><a href="#js数组API与面试题" class="headerlink" title="js数组API与面试题"></a>js数组API与面试题</h1><hr>
+<h2 id="javascript数组API"><a href="#javascript数组API" class="headerlink" title="javascript数组API"></a>javascript数组API</h2><hr>
+<h3 id="创建一个数组"><a href="#创建一个数组" class="headerlink" title="创建一个数组"></a>创建一个数组</h3><blockquote>
+<p><strong>Array()构造器</strong><br>  Array() &#x2F;&#x2F;[]  空数组<br>  Array(3) &#x2F;&#x2F;[,,,]   三个元素的空数组<br>  Array(1,2,3) &#x2F;&#x2F;[1,2,3]<br><strong>Array.of</strong>  用于将一组值，转换为数组，弥补Array方法参数不同造成的差异性<br>  Array.of(1,2,3)<br>  Array.of(1) &#x2F;&#x2F;[1]<br>  Array.of(1).length &#x2F;&#x2F; 1  </p>
+</blockquote>
+<h3 id="数组静态方法"><a href="#数组静态方法" class="headerlink" title="数组静态方法"></a>数组静态方法</h3><blockquote>
+<p><strong>Array.from</strong> 从类数组对象或者-可迭代对象中-创建一个新的数组实例<br>  Array.from(‘foo’) &#x2F;&#x2F;[‘f’,’o’,’o’]<br><strong>Array.isArray()</strong>  判断某个变量是否是一个数组对象<br>  Array.isArray([1,2,3]) &#x2F;&#x2F;true  </p>
+</blockquote>
+<blockquote>
+<p><strong>Array.of</strong>  根据一组参数来创建新的数组实例，支持任意的参数数量和类型<br>  Array.of(7) &#x2F;&#x2F;[7]<br>  Array.of(1,2,3) &#x2F;&#x2F;[1,2,3]</p>
+</blockquote>
+<h3 id="数组循环执行效率"><a href="#数组循环执行效率" class="headerlink" title="数组循环执行效率"></a>数组循环执行效率</h3><blockquote>
+<p>for&gt;forEach&gt;while&gt;map&gt;for…of&gt;for..in<br>   const data &#x3D; new Array(10000000).fill(0);<br>   for(let i &#x3D; 0;i &lt; data.length; i++){}<br>   for(let item of data) {}<br>   for(let key in data) {data[key];}<br>   data.forEach((item)&#x3D;&gt;{item;})<br>   data.map((item)&#x3D;&gt;{<br>    item<br>   })<br>   while(data.length&gt;count) {}</p>
+</blockquote>
+<h3 id="数组的遍历方法"><a href="#数组的遍历方法" class="headerlink" title="数组的遍历方法"></a>数组的遍历方法</h3><hr>
+<p>  <strong>every</strong> 用来测试某个数组中所有元素是否都能通过一个函数的测试<br>  返回值：Boolean  </p>
+<p> <strong>some</strong>  </p>
+<blockquote>
+<p><strong>返回Boolean值</strong>测试函数中至少有一个通过测试就返回true,都没有返回false，<br> 用一个空数组测试返回false</p>
+</blockquote>
+<p> <strong>filter</strong>  </p>
+<blockquote>
+<p> <strong>创建一个新数组</strong>，包含通过提供函数测试的所有元素，若没有一个通过<br>测试，返回空数组 </p>
+</blockquote>
+<p> <strong>forEach</strong>   </p>
+<blockquote>
+<p><strong>按升序</strong>为数组中含有效值的每一项执行一次callback函数，<br>  已删除的和未初始化的返回undefined  </p>
+</blockquote>
+<p> <strong>map</strong> </p>
+<blockquote>
+<p><strong>创建一个新数组</strong>其结果为调用一次提供的函数后的返回值  </p>
+</blockquote>
+<p> <strong>reduce</strong>  </p>
+<blockquote>
+<p>对数组每个元素执行一个函数，将其结果汇总会单个返回值  </p>
+</blockquote>
+<ul>
+<li>callback：</li>
+</ul>
+<p> <strong>reduceRight</strong>   </p>
+<blockquote>
+<p>接收一个函数作为<strong>累加器</strong>和数组的<strong>每个值（从右到左）</strong>将其<br> 减少位单个值  </p>
+</blockquote>
+<h3 id="数组的查找"><a href="#数组的查找" class="headerlink" title="数组的查找"></a>数组的查找</h3><p> <strong>find（）</strong>  </p>
+<blockquote>
+<p>返回数组中满足车市函数中的<strong>第一个元素的值</strong>，否则返回undefined  </p>
+</blockquote>
+<p> <strong>findIndex()</strong>  </p>
+<blockquote>
+<p>返回数组中满足测试的<strong>第一个元素的*索引</strong>，没有返回-1  </p>
+</blockquote>
+<hr>
+<h3 id="会修改原始数组的操作"><a href="#会修改原始数组的操作" class="headerlink" title="会修改原始数组的操作"></a>会修改原始数组的操作</h3><p> <strong>fill()</strong>  </p>
+<blockquote>
+<p>用一个固定值填充从起始索引到终止索引内全部元素，并返回修改后数组<br> <em>语法</em>  arr.fill(value,start,end)<br> eg:[].fill.call({lengh:3},4) &#x2F;&#x2F;{0:4,1:4,2:4,length:3}  </p>
+</blockquote>
+<p> <strong>1.push()</strong>  </p>
+<blockquote>
+<p>将一个或多个元素添加到数组末尾<br> <strong>返回值</strong>：数组新长度</p>
+</blockquote>
+<p> <strong>2.pop()</strong>  </p>
+<blockquote>
+<p>从数组中删除最后最后一个元素<br>   <strong>返回值</strong>：删除了的元素的值<br>   会更改数组长度<br>   数组为空时返回undefined</p>
+</blockquote>
+<p> <strong>3.reverse()</strong>  </p>
+<blockquote>
+<p>将数组元素位置颠倒<br>  <strong>返回值</strong>:颠倒后的数组  </p>
+</blockquote>
+<p> <strong>4.shift()</strong>  </p>
+<blockquote>
+<p>从数组中删除第一个元素<br>    <strong>返回值</strong>：删除了的元素的值 </p>
+</blockquote>
+<p> <strong>5.unshift()</strong>  </p>
+<blockquote>
+<p>将一个或多个元素添加到数组的开头<br> <strong>返回值</strong>:数组的新长度</p>
+</blockquote>
+<p> <strong>6.splice(start,deletecount,[item1,item2…])</strong>  </p>
+<blockquote>
+<p>通过  <em>删除</em> 或 <em>替换</em>现有的元素或者<em>原地添加新的元素</em>来修改数组<br>  <strong>返回值</strong>：以数组形式返回被修改的内容（被删除的内容）<br>  如果没有删除元素返回空数组，如果删除一个返回一个元素的数组  </p>
+</blockquote>
+<ul>
+<li>start:大于数组长度时从数组末尾添加，负值代表从后往前数低级个开始，负数绝对值大于<br>  数组长度则从0位开始   </li>
+<li>deleteCount：大于数组长度代表全部删除，为0或者负数代表不删除，但至少添加一个新元素  </li>
+<li>item1，item2…代表添加的元,不指定代表只删除</li>
+</ul>
+<p> <strong>7.sort()</strong><br> 将元素转换为字符串,比较UTF-16代码 单元之序列<br> 参数指定一个方法a&gt;b从小打到 b&gt;a从大到小  </p>
+<h3 id="不修改原始数组的操作"><a href="#不修改原始数组的操作" class="headerlink" title="不修改原始数组的操作"></a>不修改原始数组的操作</h3><p><strong>concat</strong><br><strong>join()</strong><br><strong>slice()</strong><br><strong>toString()</strong>  </p>
+<h3 id="数组的扁平化"><a href="#数组的扁平化" class="headerlink" title="数组的扁平化"></a>数组的扁平化</h3><p><strong>flat</strong><br><strong>遍历,递归方法</strong><br>** 使用toString和split**<br><strong>使用join和split</strong>  </p>
+<h3 id="数组元素中对象属性去重"><a href="#数组元素中对象属性去重" class="headerlink" title="数组元素中对象属性去重"></a>数组元素中对象属性去重</h3><h3 id="复制数组"><a href="#复制数组" class="headerlink" title="复制数组"></a>复制数组</h3><h3 id="数组交集"><a href="#数组交集" class="headerlink" title="数组交集"></a>数组交集</h3><h3 id="数组元素是对象的时候各种操作"><a href="#数组元素是对象的时候各种操作" class="headerlink" title="数组元素是对象的时候各种操作"></a>数组元素是对象的时候各种操作</h3>
                 
             </div>
             <hr/>
@@ -508,7 +597,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://lxyxxnn.abc.efg/2022/05/12/mianshi/">https://lxyxxnn.abc.efg/2022/05/12/mianshi/</a>
+                    <a href="https://lxyxxnn.abc.efg/2022/05/13/%E6%95%B0%E7%BB%84%E9%9D%A2%E8%AF%95%E9%A2%98/">https://lxyxxnn.abc.efg/2022/05/13/%E6%95%B0%E7%BB%84%E9%9D%A2%E8%AF%95%E9%A2%98/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -546,8 +635,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/">
-                                    <span class="chip bg-color">前端面试题</span>
+                                <a href="/tags/%E6%95%B0%E7%BB%84/">
+                                    <span class="chip bg-color">数组</span>
+                                </a>
+                            
+                                <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                                    <span class="chip bg-color">js面试题</span>
                                 </a>
                             
                         </div>
@@ -721,17 +814,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2022/05/12/%E7%AC%AC%E4%B8%80%E5%A4%A9%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                <a href="/2022/05/13/%E6%95%B0%E7%BB%84%E9%9D%A2%E8%AF%95%E9%A2%98/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="面试题第一天">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="数组相关面试题">
                         
-                        <span class="card-title">面试题第一天</span>
+                        <span class="card-title">数组相关面试题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -741,9 +835,63 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-12
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-13
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/" class="post-category">
+                                    面试题
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%95%B0%E7%BB%84/">
+                        <span class="chip bg-color">数组</span>
+                    </a>
+                    
+                    <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                        <span class="chip bg-color">js面试题</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/05/13/%E7%AC%AC%E4%BA%8C%E9%A2%98%E9%82%A3%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="字符串相关面试题">
+                        
+                        <span class="card-title">字符串相关面试题</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-13
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -759,51 +907,14 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/js/">
-                        <span class="chip bg-color">js</span>
+                    <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                        <span class="chip bg-color">js面试题</span>
                     </a>
                     
-                    <a href="/tags/%E6%95%B0%E7%BB%84/">
-                        <span class="chip bg-color">数组</span>
+                    <a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/">
+                        <span class="chip bg-color">字符串</span>
                     </a>
                     
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2022/05/06/abc/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="abc">
-                        
-                        <span class="card-title">abc</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-06
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            XingNian
-                            
-                        </span>
-                    </div>
                 </div>
                 
             </div>

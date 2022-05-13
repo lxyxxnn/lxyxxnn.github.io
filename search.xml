@@ -112,8 +112,108 @@
       </tags>
   </entry>
   <entry>
+    <title>数组相关面试题</title>
+    <url>/2022/05/13/%E6%95%B0%E7%BB%84%E9%9D%A2%E8%AF%95%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="js数组API与面试题"><a href="#js数组API与面试题" class="headerlink" title="js数组API与面试题"></a>js数组API与面试题</h1><hr>
+<h2 id="javascript数组API"><a href="#javascript数组API" class="headerlink" title="javascript数组API"></a>javascript数组API</h2><hr>
+<h3 id="创建一个数组"><a href="#创建一个数组" class="headerlink" title="创建一个数组"></a>创建一个数组</h3><blockquote>
+<p><strong>Array()构造器</strong><br>  Array() &#x2F;&#x2F;[]  空数组<br>  Array(3) &#x2F;&#x2F;[,,,]   三个元素的空数组<br>  Array(1,2,3) &#x2F;&#x2F;[1,2,3]<br><strong>Array.of</strong>  用于将一组值，转换为数组，弥补Array方法参数不同造成的差异性<br>  Array.of(1,2,3)<br>  Array.of(1) &#x2F;&#x2F;[1]<br>  Array.of(1).length &#x2F;&#x2F; 1  </p>
+</blockquote>
+<h3 id="数组静态方法"><a href="#数组静态方法" class="headerlink" title="数组静态方法"></a>数组静态方法</h3><blockquote>
+<p><strong>Array.from</strong> 从类数组对象或者-可迭代对象中-创建一个新的数组实例<br>  Array.from(‘foo’) &#x2F;&#x2F;[‘f’,’o’,’o’]<br><strong>Array.isArray()</strong>  判断某个变量是否是一个数组对象<br>  Array.isArray([1,2,3]) &#x2F;&#x2F;true  </p>
+</blockquote>
+<blockquote>
+<p><strong>Array.of</strong>  根据一组参数来创建新的数组实例，支持任意的参数数量和类型<br>  Array.of(7) &#x2F;&#x2F;[7]<br>  Array.of(1,2,3) &#x2F;&#x2F;[1,2,3]</p>
+</blockquote>
+<h3 id="数组循环执行效率"><a href="#数组循环执行效率" class="headerlink" title="数组循环执行效率"></a>数组循环执行效率</h3><blockquote>
+<p>for&gt;forEach&gt;while&gt;map&gt;for…of&gt;for..in<br>   const data &#x3D; new Array(10000000).fill(0);<br>   for(let i &#x3D; 0;i &lt; data.length; i++){}<br>   for(let item of data) {}<br>   for(let key in data) {data[key];}<br>   data.forEach((item)&#x3D;&gt;{item;})<br>   data.map((item)&#x3D;&gt;{<br>    item<br>   })<br>   while(data.length&gt;count) {}</p>
+</blockquote>
+<h3 id="数组的遍历方法"><a href="#数组的遍历方法" class="headerlink" title="数组的遍历方法"></a>数组的遍历方法</h3><hr>
+<p>  <strong>every</strong> 用来测试某个数组中所有元素是否都能通过一个函数的测试<br>  返回值：Boolean  </p>
+<p> <strong>some</strong>  </p>
+<blockquote>
+<p><strong>返回Boolean值</strong>测试函数中至少有一个通过测试就返回true,都没有返回false，<br> 用一个空数组测试返回false</p>
+</blockquote>
+<p> <strong>filter</strong>  </p>
+<blockquote>
+<p> <strong>创建一个新数组</strong>，包含通过提供函数测试的所有元素，若没有一个通过<br>测试，返回空数组 </p>
+</blockquote>
+<p> <strong>forEach</strong>   </p>
+<blockquote>
+<p><strong>按升序</strong>为数组中含有效值的每一项执行一次callback函数，<br>  已删除的和未初始化的返回undefined  </p>
+</blockquote>
+<p> <strong>map</strong> </p>
+<blockquote>
+<p><strong>创建一个新数组</strong>其结果为调用一次提供的函数后的返回值  </p>
+</blockquote>
+<p> <strong>reduce</strong>  </p>
+<blockquote>
+<p>对数组每个元素执行一个函数，将其结果汇总会单个返回值  </p>
+</blockquote>
+<ul>
+<li>callback：</li>
+</ul>
+<p> <strong>reduceRight</strong>   </p>
+<blockquote>
+<p>接收一个函数作为<strong>累加器</strong>和数组的<strong>每个值（从右到左）</strong>将其<br> 减少位单个值  </p>
+</blockquote>
+<h3 id="数组的查找"><a href="#数组的查找" class="headerlink" title="数组的查找"></a>数组的查找</h3><p> <strong>find（）</strong>  </p>
+<blockquote>
+<p>返回数组中满足车市函数中的<strong>第一个元素的值</strong>，否则返回undefined  </p>
+</blockquote>
+<p> <strong>findIndex()</strong>  </p>
+<blockquote>
+<p>返回数组中满足测试的<strong>第一个元素的*索引</strong>，没有返回-1  </p>
+</blockquote>
+<hr>
+<h3 id="会修改原始数组的操作"><a href="#会修改原始数组的操作" class="headerlink" title="会修改原始数组的操作"></a>会修改原始数组的操作</h3><p> <strong>fill()</strong>  </p>
+<blockquote>
+<p>用一个固定值填充从起始索引到终止索引内全部元素，并返回修改后数组<br> <em>语法</em>  arr.fill(value,start,end)<br> eg:[].fill.call({lengh:3},4) &#x2F;&#x2F;{0:4,1:4,2:4,length:3}  </p>
+</blockquote>
+<p> <strong>1.push()</strong>  </p>
+<blockquote>
+<p>将一个或多个元素添加到数组末尾<br> <strong>返回值</strong>：数组新长度</p>
+</blockquote>
+<p> <strong>2.pop()</strong>  </p>
+<blockquote>
+<p>从数组中删除最后最后一个元素<br>   <strong>返回值</strong>：删除了的元素的值<br>   会更改数组长度<br>   数组为空时返回undefined</p>
+</blockquote>
+<p> <strong>3.reverse()</strong>  </p>
+<blockquote>
+<p>将数组元素位置颠倒<br>  <strong>返回值</strong>:颠倒后的数组  </p>
+</blockquote>
+<p> <strong>4.shift()</strong>  </p>
+<blockquote>
+<p>从数组中删除第一个元素<br>    <strong>返回值</strong>：删除了的元素的值 </p>
+</blockquote>
+<p> <strong>5.unshift()</strong>  </p>
+<blockquote>
+<p>将一个或多个元素添加到数组的开头<br> <strong>返回值</strong>:数组的新长度</p>
+</blockquote>
+<p> <strong>6.splice(start,deletecount,[item1,item2…])</strong>  </p>
+<blockquote>
+<p>通过  <em>删除</em> 或 <em>替换</em>现有的元素或者<em>原地添加新的元素</em>来修改数组<br>  <strong>返回值</strong>：以数组形式返回被修改的内容（被删除的内容）<br>  如果没有删除元素返回空数组，如果删除一个返回一个元素的数组  </p>
+</blockquote>
+<ul>
+<li>start:大于数组长度时从数组末尾添加，负值代表从后往前数低级个开始，负数绝对值大于<br>  数组长度则从0位开始   </li>
+<li>deleteCount：大于数组长度代表全部删除，为0或者负数代表不删除，但至少添加一个新元素  </li>
+<li>item1，item2…代表添加的元,不指定代表只删除</li>
+</ul>
+<p> <strong>7.sort()</strong><br> 将元素转换为字符串,比较UTF-16代码 单元之序列<br> 参数指定一个方法a&gt;b从小打到 b&gt;a从大到小  </p>
+<h3 id="不修改原始数组的操作"><a href="#不修改原始数组的操作" class="headerlink" title="不修改原始数组的操作"></a>不修改原始数组的操作</h3><p><strong>concat</strong><br><strong>join()</strong><br><strong>slice()</strong><br><strong>toString()</strong>  </p>
+<h3 id="数组的扁平化"><a href="#数组的扁平化" class="headerlink" title="数组的扁平化"></a>数组的扁平化</h3><p><strong>flat</strong><br><strong>遍历,递归方法</strong><br>** 使用toString和split**<br><strong>使用join和split</strong>  </p>
+<h3 id="数组元素中对象属性去重"><a href="#数组元素中对象属性去重" class="headerlink" title="数组元素中对象属性去重"></a>数组元素中对象属性去重</h3><h3 id="复制数组"><a href="#复制数组" class="headerlink" title="复制数组"></a>复制数组</h3><h3 id="数组交集"><a href="#数组交集" class="headerlink" title="数组交集"></a>数组交集</h3><h3 id="数组元素是对象的时候各种操作"><a href="#数组元素是对象的时候各种操作" class="headerlink" title="数组元素是对象的时候各种操作"></a>数组元素是对象的时候各种操作</h3>]]></content>
+      <categories>
+        <category>面试题</category>
+      </categories>
+      <tags>
+        <tag>数组</tag>
+        <tag>js面试题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>面试题第一天</title>
-    <url>/2022/05/12/%E6%95%B0%E7%BB%84/</url>
+    <url>/2022/05/12/%E7%AC%AC%E4%B8%80%E5%A4%A9%E9%9D%A2%E8%AF%95%E9%A2%98/</url>
     <content><![CDATA[<h2 id="一、将数组的length设置为0，取第一个元素会返回什么？"><a href="#一、将数组的length设置为0，取第一个元素会返回什么？" class="headerlink" title="一、将数组的length设置为0，取第一个元素会返回什么？"></a>一、将数组的length设置为0，取第一个元素会返回什么？</h2><blockquote>
 <p>设置 length &#x3D; 0 会清空数组，所以会返回 undefined</p>
 </blockquote>
@@ -207,6 +307,58 @@
       <tags>
         <tag>js</tag>
         <tag>数组</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>字符串相关面试题</title>
+    <url>/2022/05/13/%E7%AC%AC%E4%BA%8C%E9%A2%98%E9%82%A3%E9%9D%A2%E8%AF%95%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="第0题，字符串的api"><a href="#第0题，字符串的api" class="headerlink" title="第0题，字符串的api"></a>第0题，字符串的api</h2><blockquote>
+<ul>
+<li>**charAt() &#x3D;&#x3D;返回指定位置的字符&#x3D;&#x3D;<br>var str &#x3D; “abc”<br>str.charAt(2) &#x2F;&#x2F;c</li>
+</ul>
+</blockquote>
+<ul>
+<li>**chartCodeAt() &#x3D;&#x3D;返回在指定位置的字符Unicode编码<br>  str.chartCodeAt(1) &#x2F;&#x2F;98  </li>
+<li>**concat() &#x3D;&#x3D; 连接字符串<br>  var a&#x3D;”lxy”,b&#x3D;”csy”;<br>  var c &#x3D; a.concat(b);  &#x2F;&#x2F;lxycsy  </li>
+<li>**indexOf() &#x3D;&#x3D;检索字符串&#x3D;&#x3D;<br>  var str &#x3D; “hello myfriend”<br>  str.indexOf(“Hello”) &#x2F;&#x2F;0<br>  str indexOf(“world”) &#x2F;&#x2F;-6<br>  **区分大小写  </li>
+<li><strong>match()  &#x3D;&#x3D;在字符串内检索指定的值，或找到 正则表达式匹配的字符串，返回指定的值<br>  var str &#x3D;”1 abc 2 def 3”;<br>  str.match(&#x2F;\d+&#x2F;g) &#x2F;&#x2F;123  &#x2F;&#x2F;</strong>&#x2F;\d+&#x2F;g全局匹配数字一个或多个  </li>
+<li>**replace()  &#x3D;&#x3D; 用你指定的字符串替换str中的字符串，首先要用正则<br>找到然后替换&#x3D;&#x3D;<br>var str &#x3D; “xinnian shandi”<br>str.replace(&#x2F;xinnian&#x2F;,”xingyu”) &#x2F;&#x2F;xingyu shandi  </li>
+<li>**search() 用于检索字符串中指定子字符串，或检索与正则表达式相匹配的字符串，<br>**若忽略大小写追加标志i，没找到返回&#x3D;&#x3D;-1&#x3D;&#x3D;<br>var str &#x3D; “abc DEF”<br>str.search(&#x2F;DEF&#x2F;i) &#x2F;&#x2F;4  </li>
+<li>**slice(start,end) &#x3D;&#x3D;提出字符串的”片段“，在新的字符串中返回被提取部分<br>未指定start：  <ul>
+<li>负数：从字符串尾部开始计算起始位置，-1代表最后一个字符  </li>
+<li>-2“倒数第二个字符<br>未指定end：  </li>
+<li>负数： 从尾部开始计算  </li>
+<li>未指定：从start到字符串结尾length-1<br>var str&#x3D;”abc def ghk”<br>console.log(str.slice(6))&#x2F;&#x2F;f ghk</li>
+</ul>
+<p>	</p>
+</li>
+<li>** split()把字符串分割为字符串数组  参数位分隔符，从字符串中判断用什么作为分隔符<br>var str&#x3D;”lxy csy lyn yqn wmt“;<br>str.split(“”); &#x2F;&#x2F; [‘l’,’x’,’y’,’ ‘,’c’….,’t’]<br>str.split(“ “); &#x2F;&#x2F; [‘lxy’,’csy’…]<br>str.split(“ “,3)  &#x2F;&#x2F;分割的数组长度3  </li>
+<li>**toLocaleUpperCase()和toLowerCase()<br>  var str &#x3D; “LXY MAKE you”<br>  str.toLocaleUpperCase() &#x2F;&#x2F;LXY MAKE YOU  </li>
+<li>**sbustr(起始位置，截取数量)  从起始位置提取字符串中指定数目字符<br>  substr(start,length)<br>  start:</li>
+</ul>
+<ul>
+<li>要抽取子串的其实下表，负数代表从尾部开始提取<br>  length：可选，子串中的字符数（位数）。省略则代表从开始到结尾    <figure class="highlight plaintext"><figcaption><span>str</span></figcaption><table><tr><td class="code"><pre><span class="line">  console.log(str.substr(2))//c def</span><br><span class="line">  console.log(str.substr(2,4))// c de```</span><br><span class="line">  </span><br><span class="line">  + **subString(起始位置，截取结束点)  </span><br><span class="line">  str.subString(1,3) //&quot;bc &quot;  </span><br><span class="line">  ### Es6新增操作字符串的方法  </span><br><span class="line">  *******************  </span><br><span class="line">  &gt; ### codePointAt()  </span><br><span class="line">  let s=&#x27;李xy&#x27;  </span><br><span class="line">  s.codePointAt(0)  //李前2个字节的十进制码点  </span><br><span class="line">  s.codePointAt(1)  //李后俩个字节十进制码点  </span><br><span class="line">  s.codePointAt(2)  //字符a的ascii码  </span><br><span class="line">  ### String.fromCodePOint()  用于返回字符串从码点开始</span><br><span class="line">  es5提供String.fromCharCode方法，从码点**返回对应字符**  </span><br><span class="line">  资格方法不识别32位的 UTF-16字符</span><br><span class="line">  **String.fromCharCode不能识别大于0xFFFF的码点，0x20BB7&gt;0xFFFF最高位2被舍弃  </span><br><span class="line">  **最后返回了码点U+0BB7的字符，就是个乱码，而ES6的S他string.fromCodePoint方  </span><br><span class="line">  ** 法可以是识别大于0xFFFF的字符，弥补了fromCharCode的不足  </span><br><span class="line">  String.fromCodePoint(0x20BB7) //李  </span><br><span class="line">  ### 字符串遍历接口 for of  </span><br><span class="line">  for(let str of &#x27;abc&#x27;) &#123;  </span><br><span class="line">   console.log(str);   </span><br><span class="line">  &#125;  </span><br><span class="line">  //&quot;a&quot;  </span><br><span class="line">  //&quot;b&quot;  </span><br><span class="line">  //&quot;c&quot;  </span><br><span class="line">  可以识别Unicode编号大于0XFFFF的字符  </span><br><span class="line">  ### at() 可以识别Unicode编号大于0xFFFF的字符，返回正确字符  </span><br><span class="line">  ’abc‘.at(0) //&#x27;a&#x27;  </span><br><span class="line">  &#x27;吉&#x27;.at(0) //“吉”  </span><br><span class="line">  ### Unicode正规化  </span><br><span class="line">  采用normalize()方法 将字符*不同*的表示方法统一为同样的样式   </span><br><span class="line">    许多欧洲语言有语调符号和重音符号，为了表示它们，Unicode 提供了两种方法。一种是  </span><br><span class="line">	直接提供带重音符号的字符，比如Ǒ（u01D1）  </span><br><span class="line">	另一种是提供合成符号（combining character），即原字符与重音符号的合成，两个字符合成一个字符，  </span><br><span class="line">	比如O（u004F）和ˇ（u030C）合成Ǒ（u004Fu030C）。  </span><br><span class="line">	**’\u01D1‘ === ’\u004F\u030C‘ false</span><br><span class="line">	**&#x27;\u01D1&#x27;.normalize() === &#x27;\u004F\u030C&#x27;.normalize() true  </span><br><span class="line">  ### includes(),startWith(),endsWith()  </span><br><span class="line">  对比之前只有indexOf可以用来确定一个字符串是否包含在另一个字符串中   </span><br><span class="line">  **以上这三种方法都支持第二个参数，表示开始搜索的位置，返回类型位Boolean  </span><br><span class="line">  </span><br><span class="line">  let s = &#x27;Hello world!&#x27;; </span><br><span class="line">  s.startsWith(&#x27;Hello&#x27;) // true</span><br><span class="line">  s.startsWith(&#x27;world&#x27;, 6) // true</span><br><span class="line">  s.includes(&#x27;Hello&#x27;, 6) // false</span><br><span class="line">  </span><br><span class="line">  **其中endWidth第二个参数代表前n个字符，其他两个方法针对从第n个位置知道字符串结束  </span><br><span class="line">  ### repeat(n),返回一个新的字符串，重复了n次的原字符串    </span><br><span class="line">  n:  </span><br><span class="line">  - 3:重复三次  </span><br><span class="line">  - 2.9 取整，重复2次  </span><br><span class="line">  - 负数或infinity ：报错RangeError  </span><br><span class="line">  </span><br><span class="line">  ### padStart(a,b)，padEnd()  </span><br><span class="line">  a:不全的长度 b：填充的字符  </span><br><span class="line">  - padStart(5,ab) :在目标字符串前补充ab到够5位</span><br><span class="line">  - padEnd(5,ab) :在目标字符串后补充ab到够5位</span><br><span class="line">  - 原字符串长度大于a或等于a的长度，返回原字符串  </span><br><span class="line">  - 省略第二个参数，使用空格补全</span><br><span class="line">  **最常见的用途是位数值补全指定位数  </span><br><span class="line">  **另一种用途是提示字符串格式  </span><br><span class="line">  &#x27;12&#x27;.padStart(10,&#x27;YYYY-MM-DD&#x27;)  </span><br><span class="line">  </span><br><span class="line">  &#x27;09-12&#x27;.padStart(10, &#x27;YYYY-MM-DD&#x27;) // &quot;YYYY-09-12&quot; </span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line">  ### matchAll()  </span><br><span class="line">  返回一个遍历器，其中包含了所有匹配正则表达式和分组捕获结果  </span><br><span class="line">  **应为返回的是遍历器** 所以使用for of    </span><br><span class="line">  for(const math of &#x27;lxyacnl&#x27;.matchAll(/l/g)) &#123;  </span><br><span class="line">    console.log(match)</span><br><span class="line">  &#125;  </span><br><span class="line">  // [&quot;l&quot;,index:0],[&quot;l&quot;,index:7]  </span><br><span class="line">  </span><br><span class="line">    </span><br><span class="line">  </span><br><span class="line">  ### 字符串模板  </span><br><span class="line">  - 可以调用函数 </span><br><span class="line">  - $&#123;’字符串‘&#125; 原样输出  </span><br><span class="line">  - 可以嵌套 </span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">## 第一题，字符串相加</span><br><span class="line">&gt; **给定两个字符串形式的负整数num1，计算它们的和并同样以字符串形式返回。  </span><br><span class="line">  **示例**  </span><br><span class="line">  输入：num1 = “11”，num2 = “123” 输出：“134”</span><br><span class="line">  *思路*：定义两个指针i，j分别指向num1，num2末尾，最低位，同时定义  </span><br><span class="line">  **一个变量add**维护当前是否有进位，然后从末尾到开头逐位相加即可。  </span><br></pre></td></tr></table></figure>
+var addStrings &#x3D; function(num1,num2) {<br>let i &#x3D; num1.length - 1,j&#x3D;num2.length-1,add &#x3D; 0;<br>const ans &#x3D; [];<br>while(i&gt;&#x3D;0||j&gt;&#x3D;0||add!&#x3D;0) {<br> const x &#x3D; i&gt;&#x3D;0? num1.chartAt(i) - ‘0’ : 0;<br> const y &#x3D; j&gt;&#x3D;0? num2.chartAt(j) - ‘0’ : 0;<br> const result &#x3D; x+y+add;<br> ans.push(result%10);<br> add &#x3D; Math.floot(result &#x2F; 10);<br> i -&#x3D; 1;<br> j -&#x3D; 1;<br>}<br> return ans.reverse().join(‘’);<br>}<br>  &#96;&#96;&#96;<br> **复杂度分析<ul>
+<li>事件复杂度：O（max（len1，len2））</li>
+<li>空间复杂度：O（1）我们只需要常数空间存放若干变量const</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="第二题，写一个repeat方法，实现字符串复制拼接"><a href="#第二题，写一个repeat方法，实现字符串复制拼接" class="headerlink" title="第二题，写一个repeat方法，实现字符串复制拼接"></a>第二题，写一个repeat方法，实现字符串复制拼接</h2><blockquote>
+<h3 id="方法1：空数组join"><a href="#方法1：空数组join" class="headerlink" title="方法1：空数组join"></a>方法1：空数组join</h3><p>  function repeat(target,n) {<br>   return (new Array(n+1).join(target))<br>  }</p>
+</blockquote>
+<h3 id="方法2：无需创建数组，提高性能"><a href="#方法2：无需创建数组，提高性能" class="headerlink" title="方法2：无需创建数组，提高性能"></a>方法2：无需创建数组，提高性能</h3><p>  function repeat(target,n) {<br>  return  Array.prototype.join.call({length:n+1},target)<br>  }</p>
+<h3 id="方法3：利用闭包缓存join，避免重复创建对象，寻找方法"><a href="#方法3：利用闭包缓存join，避免重复创建对象，寻找方法" class="headerlink" title="方法3：利用闭包缓存join，避免重复创建对象，寻找方法"></a>方法3：利用闭包缓存join，避免重复创建对象，寻找方法</h3><p>  var repeat &#x3D; (function() {<br>   var join &#x3D; Array.prototype.join,obj &#x3D; {};<br>   return function(target,n) {<br>     obj.length &#x3D; n+1;<br>     return join.call(obj.target);<br>   };<br>  })  </p>
+<h3 id="使用二分法"><a href="#使用二分法" class="headerlink" title="使用二分法"></a>使用二分法</h3><p>  function repeat(target,n){<br>   var s &#x3D; target,total&#x3D;[];<br>   while(n&gt;0) {<br>    if(n%2 &#x3D;&#x3D;&#x3D; 1) {<br>     total[total.length] &#x3D; s;<br>    }<br>    if(n &#x3D;&#x3D;&#x3D;1 ) {<br>     break;<br>    }<br>    s+&#x3D;s;<br>    n &#x3D; n &gt;&gt; 1;  	<br>   }<br>   return total.join(‘’);<br>  }
+  </p>
+]]></content>
+      <categories>
+        <category>面试题</category>
+      </categories>
+      <tags>
+        <tag>js面试题</tag>
+        <tag>字符串</tag>
       </tags>
   </entry>
 </search>
