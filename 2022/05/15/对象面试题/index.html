@@ -4,11 +4,17 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="数组相关面试题, 星惗">
-    <meta name="description" content="js数组API与面试题
-javascript数组API
-创建一个数组
-Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;&amp;#x2F;[,,,]   三个元素的空数组  Array">
+    <meta name="keywords" content="Object相关api与类型转换, 星惗">
+    <meta name="description" content="Object Api
+Object
+
+object.prototype  返回原型对象
+
+
+
+object.key(obj) 遍历对象的可枚举属性  
+
+object.getOwnPropertyName(obj)  遍历对象不可枚举的属性">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -22,7 +28,7 @@ Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;
 
     
 
-    <title>数组相关面试题 | 星惗</title>
+    <title>Object相关api与类型转换 | 星惗</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -312,12 +318,12 @@ Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">数组相关面试题</h1>
+                    <h1 class="description center-align post-title">Object相关api与类型转换</h1>
                 </div>
             </div>
         </div>
@@ -433,27 +439,22 @@ Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%95%B0%E7%BB%84/">
-                                <span class="chip bg-color">数组</span>
+                            <a href="/tags/js/">
+                                <span class="chip bg-color">js</span>
                             </a>
                         
-                            <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
-                                <span class="chip bg-color">js面试题</span>
+                            <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                                <span class="chip bg-color">面试题</span>
+                            </a>
+                        
+                            <a href="/tags/Object/">
+                                <span class="chip bg-color">Object</span>
                             </a>
                         
                     </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/" class="post-category">
-                                面试题
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -462,7 +463,7 @@ Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-05-13
+                    2022-05-15
                 </div>
                 
 
@@ -483,124 +484,178 @@ Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="js数组API与面试题"><a href="#js数组API与面试题" class="headerlink" title="js数组API与面试题"></a>js数组API与面试题</h1><hr>
-<h2 id="javascript数组API"><a href="#javascript数组API" class="headerlink" title="javascript数组API"></a>javascript数组API</h2><hr>
-<h3 id="创建一个数组"><a href="#创建一个数组" class="headerlink" title="创建一个数组"></a>创建一个数组</h3><blockquote>
-<p><strong>Array()构造器</strong><br>  Array() &#x2F;&#x2F;[]  空数组<br>  Array(3) &#x2F;&#x2F;[,,,]   三个元素的空数组<br>  Array(1,2,3) &#x2F;&#x2F;[1,2,3]<br><strong>Array.of</strong>  用于将一组值，转换为数组，弥补Array方法参数不同造成的差异性<br>  Array.of(1,2,3)<br>  Array.of(1) &#x2F;&#x2F;[1]<br>  Array.of(1).length &#x2F;&#x2F; 1  </p>
-</blockquote>
-<h3 id="数组静态方法"><a href="#数组静态方法" class="headerlink" title="数组静态方法"></a>数组静态方法</h3><blockquote>
-<p><strong>Array.from</strong> 从类数组对象或者-可迭代对象中-创建一个新的数组实例<br>  Array.from(‘foo’) &#x2F;&#x2F;[‘f’,’o’,’o’]<br><strong>Array.isArray()</strong>  判断某个变量是否是一个数组对象<br>  Array.isArray([1,2,3]) &#x2F;&#x2F;true  </p>
-</blockquote>
-<blockquote>
-<p><strong>Array.of</strong>  根据一组参数来创建新的数组实例，支持任意的参数数量和类型<br>  Array.of(7) &#x2F;&#x2F;[7]<br>  Array.of(1,2,3) &#x2F;&#x2F;[1,2,3]</p>
-</blockquote>
-<h3 id="数组循环执行效率"><a href="#数组循环执行效率" class="headerlink" title="数组循环执行效率"></a>数组循环执行效率</h3><blockquote>
-<p>for&gt;forEach&gt;while&gt;map&gt;for…of&gt;for..in<br>   const data &#x3D; new Array(10000000).fill(0);<br>   for(let i &#x3D; 0;i &lt; data.length; i++){}<br>   for(let item of data) {}<br>   for(let key in data) {data[key];}<br>   data.forEach((item)&#x3D;&gt;{item;})<br>   data.map((item)&#x3D;&gt;{<br>    item<br>   })<br>   while(data.length&gt;count) {}</p>
-</blockquote>
-<h3 id="数组的遍历方法"><a href="#数组的遍历方法" class="headerlink" title="数组的遍历方法"></a>数组的遍历方法</h3><hr>
-<p>  <strong>every</strong> 用来测试某个数组中所有元素是否都能通过一个函数的测试<br>  返回值：Boolean  </p>
-<p> <strong>some</strong>  </p>
-<blockquote>
-<p><strong>返回Boolean值</strong>测试函数中至少有一个通过测试就返回true,都没有返回false，<br> 用一个空数组测试返回false</p>
-</blockquote>
-<p> <strong>filter</strong>  </p>
-<blockquote>
-<p> <strong>创建一个新数组</strong>，包含通过提供函数测试的所有元素，若没有一个通过<br>测试，返回空数组 </p>
-</blockquote>
-<p> <strong>forEach</strong>   </p>
-<blockquote>
-<p><strong>按升序</strong>为数组中含有效值的每一项执行一次callback函数，<br>  已删除的和未初始化的返回undefined  </p>
-</blockquote>
-<p> <strong>map</strong> </p>
-<blockquote>
-<p><strong>创建一个新数组</strong>其结果为调用一次提供的函数后的返回值  </p>
-</blockquote>
-<p> <strong>reduce</strong>  </p>
-<blockquote>
-<p>对数组每个元素执行一个函数，将其结果汇总会单个返回值  </p>
+                <h2 id="Object-Api"><a href="#Object-Api" class="headerlink" title="Object Api"></a>Object Api</h2><hr>
+<h3 id="Object"><a href="#Object" class="headerlink" title="Object"></a>Object</h3><blockquote>
+<ul>
+<li>object.prototype<br>  返回原型对象</li>
+</ul>
 </blockquote>
 <ul>
-<li>callback：</li>
+<li><p>object.key(obj)<br> 遍历对象的可枚举属性  </p>
+</li>
+<li><p>object.getOwnPropertyName(obj)<br>  遍历对象不可枚举的属性  </p>
+</li>
+<li><p>valueOf<br>   返回当前对象对应的值  </p>
+</li>
+<li><p>toString<br>   返回当前对象对应的字符串形式     </p>
+</li>
+<li><p>hasOwnProperty<br>  判断某个属性是否为当前对象的属性，还是继承于原型对象的属性  </p>
+</li>
+<li><p>toLocaleString<br>  返回当前对象对应的 本地字符串形式  </p>
+</li>
+<li><p>isPrototypeOf<br>  判断当前对象是否为另一个对象的原型  </p>
+</li>
+<li><p>propertyIsEnumerable<br>  判断某个属性是否可枚举</p>
+</li>
 </ul>
-<p> <strong>reduceRight</strong>   </p>
-<blockquote>
-<p>接收一个函数作为<strong>累加器</strong>和数组的<strong>每个值（从右到左）</strong>将其<br> 减少位单个值  </p>
+<h3 id="Number"><a href="#Number" class="headerlink" title="Number"></a>Number</h3><blockquote>
+<ul>
+<li>Number.POSITIVE_INFINITY &#x2F;&#x2F;正无限</li>
+</ul>
 </blockquote>
-<h3 id="数组的查找"><a href="#数组的查找" class="headerlink" title="数组的查找"></a>数组的查找</h3><p> <strong>find（）</strong>  </p>
-<blockquote>
-<p>返回数组中满足车市函数中的<strong>第一个元素的值</strong>，否则返回undefined  </p>
-</blockquote>
-<p> <strong>findIndex()</strong>  </p>
-<blockquote>
-<p>返回数组中满足测试的<strong>第一个元素的*索引</strong>，没有返回-1  </p>
-</blockquote>
+<ul>
+<li>Number.NEGATIVE_INFINITY &#x2F;&#x2F;负无限  </li>
+<li>Number.NaN &#x2F;&#x2F;非数值  </li>
+<li>Number.MAX_VALUE &#x2F;&#x2F;表示最大的正数  </li>
+<li>Number.MIN_VALUE &#x2F;&#x2F;表示最想的正数  最接近0的正数  </li>
+<li>Number。MAX_SAFE_INTEGER  &#x2F;&#x2F;9007199254740991。</li>
+</ul>
 <hr>
-<h3 id="会修改原始数组的操作"><a href="#会修改原始数组的操作" class="headerlink" title="会修改原始数组的操作"></a>会修改原始数组的操作</h3><p> <strong>fill()</strong>  </p>
+<p>**实例方法  </p>
 <blockquote>
-<p>用一个固定值填充从起始索引到终止索引内全部元素，并返回修改后数组<br> <em>语法</em>  arr.fill(value,start,end)<br> eg:[].fill.call({lengh:3},4) &#x2F;&#x2F;{0:4,1:4,2:4,length:3}  </p>
+<ul>
+<li>toString()  接收一个参数 表示输出的进制  <ul>
+<li>toFixed()  将一个数转换为指定位数的小数，返回字符串</li>
+<li>toExponential()  将一个数转为科学计数法形式，参数：小数点后有效数字位数</li>
+<li>toPrecision()  用于将一个数字转换为指定位数的有效数字</li>
+</ul>
+</li>
+</ul>
 </blockquote>
-<p> <strong>1.push()</strong>  </p>
+<h3 id="Math"><a href="#Math" class="headerlink" title="Math"></a>Math</h3><hr>
+<p>** 属性  </p>
 <blockquote>
-<p>将一个或多个元素添加到数组末尾<br> <strong>返回值</strong>：数组新长度</p>
-</blockquote>
-<p> <strong>2.pop()</strong>  </p>
-<blockquote>
-<p>从数组中删除最后最后一个元素<br>   <strong>返回值</strong>：删除了的元素的值<br>   会更改数组长度<br>   数组为空时返回undefined</p>
-</blockquote>
-<p> <strong>3.reverse()</strong>  </p>
-<blockquote>
-<p>将数组元素位置颠倒<br>  <strong>返回值</strong>:颠倒后的数组  </p>
-</blockquote>
-<p> <strong>4.shift()</strong>  </p>
-<blockquote>
-<p>从数组中删除第一个元素<br>    <strong>返回值</strong>：删除了的元素的值 </p>
-</blockquote>
-<p> <strong>5.unshift()</strong>  </p>
-<blockquote>
-<p>将一个或多个元素添加到数组的开头<br> <strong>返回值</strong>:数组的新长度</p>
-</blockquote>
-<p> <strong>6.splice(start,deletecount,[item1,item2…])</strong>  </p>
-<blockquote>
-<p>通过  <em>删除</em> 或 <em>替换</em>现有的元素或者<em>原地添加新的元素</em>来修改数组<br>  <strong>返回值</strong>：以数组形式返回被修改的内容（被删除的内容）<br>  如果没有删除元素返回空数组，如果删除一个返回一个元素的数组  </p>
+<ul>
+<li>Math.E   常数E</li>
+</ul>
 </blockquote>
 <ul>
-<li>start:大于数组长度时从数组末尾添加，负值代表从后往前数低级个开始，负数绝对值大于<br>  数组长度则从0位开始   </li>
-<li>deleteCount：大于数组长度代表全部删除，为0或者负数代表不删除，但至少添加一个新元素  </li>
-<li>item1，item2…代表添加的元,不指定代表只删除</li>
+<li>Math.LN2  2的自然对数</li>
+<li>Math.LN10   10的自然对数</li>
+<li>Math.LOG2E   以2为底的e的对数  </li>
+<li>Math.LOG10E    以10为底E的对数  </li>
+<li>Math.PI   </li>
+<li>Math.SQRT1_2  0.5的平方根</li>
+<li>Math.SQRT2   2的平方根</li>
 </ul>
-<p> <strong>7.sort()</strong><br> 将元素转换为字符串,比较UTF-16代码 单元之序列<br> 参数指定一个方法a&gt;b从小打到 b&gt;a从大到小  </p>
-<h3 id="不修改原始数组的操作"><a href="#不修改原始数组的操作" class="headerlink" title="不修改原始数组的操作"></a>不修改原始数组的操作</h3><p><strong>concat(vlue1…vlueN)</strong>  </p>
+<hr>
+<p>** 方法  </p>
 <blockquote>
-<p><em>合并两个或多个数组，不更改现有数组，返回一个新数组</em><br><strong>参数</strong>：valueN省略则实现现存数组的ige浅拷贝  </p>
+<ul>
+<li>Math.abs()  返回绝对值</li>
+</ul>
 </blockquote>
-<p><strong>join(separator)</strong>  </p>
+<ul>
+<li>Math.ceil() 向上取整，返回一个大于参数的最小整数  </li>
+<li>Math.floor() 向下取整  </li>
+<li>Math.max(1,2,3…)  </li>
+<li>Math.pow(n,e)  n底数,e幂  </li>
+<li>Math.sqrt() 返回一个数值的平凡跟  如果是负值 返回NaN  </li>
+<li>Math.log()  返回以e为底的自然数对数值  </li>
+<li>Math.exp()  返回常数e的参数次方  </li>
+<li>Math.round() 四舍五入  </li>
+<li>Math.random() 返回0-1之间一个伪随机数，0&#x3D;&lt;n&lt;1</li>
+</ul>
+<h3 id="console"><a href="#console" class="headerlink" title="console"></a>console</h3><hr>
+<p>** 方法  </p>
 <blockquote>
-<p>将一个数组（类数组也可以）的所有元素连接成一个字符串并返回<br> separator:分隔符，省略默认使用,分割<br><strong>slice(begin，end)</strong><br><strong>浅拷贝</strong> 返回一个新的数组对象，由begin和end决定，原数组不被改变</p>
+<ul>
+<li>console.time()&amp;&amp;console.timeEnd()  可以算出一个操作花费的准确事件</li>
+</ul>
 </blockquote>
-<p>**toString()**：返回指定数组及其元素的字符串  </p>
-<h3 id="数组的扁平化-1-2-3-4-5-6-x3D-gt-1-2-3-4-5-6"><a href="#数组的扁平化-1-2-3-4-5-6-x3D-gt-1-2-3-4-5-6" class="headerlink" title="数组的扁平化([1,[2,3],[4,[5,6]]]&#x3D;&gt;[1,2,3,4,5,6])"></a>数组的扁平化([1,[2,3],[4,[5,6]]]&#x3D;&gt;[1,2,3,4,5,6])</h3><p><strong>flat</strong>：arr.flat(infinity)  </p>
-<p><strong>遍历,递归方法</strong><br>function flatten(arr) {<br>  return arr.reduce((pre,current)&#x3D;&gt;{<br>   pre.concat(Array.isArray(current)? flatten(current) : current)<br>  },[])<br>}  </p>
-<p><em>使用forEach遍历</em><br>function flatten(arr) {<br>let result &#x3D; []<br>arr.forEach(item&#x3D;&gt;{<br> if(Array.isArray(item)){<br>       result &#x3D; result.concat(flatten(item))<br> } else {<br>     result.push(item)</p>
-<p> })</p>
-<p>})<br>}</p>
-<p>** 使用toString和split**<br> return arr.toString().split(‘,’).map&#x3D;&gt;{item&#x3D;&gt;Number(item)}</p>
-<p><strong>使用join和split</strong><br> return arr.join(‘,’).split(‘,’).map(item&#x3D;&gt;Number(item))</p>
-<h3 id="数组元素中对象属性去重"><a href="#数组元素中对象属性去重" class="headerlink" title="数组元素中对象属性去重"></a>数组元素中对象属性去重</h3><p>let arr &#x3D; [<br> {“age”:13,name:”sss”},<br> {“age”:14,name:”aaa”},<br> {“age”:15,name:”ddd”},<br> {“age”:16,name:”sss”},<br>]   </p>
-<p>function removeRepeat(arr) {<br> let result &#x3D; [],obj &#x3D; {}<br> arr.forEach(item&#x3D;&gt; {<br>  if(!obj[item.name]) {<br>    result.push(item)<br>    obj[item.name] &#x3D; true<br>  }<br> })<br>  return result<br>}</p>
-<h3 id="复制数组-深拷贝"><a href="#复制数组-深拷贝" class="headerlink" title="复制数组(深拷贝)"></a>复制数组(深拷贝)</h3><blockquote>
-<p><strong>深拷贝</strong>：创建一个新的对象和数组，将原本对象的各项<strong>属性的值</strong>拷贝过来<br>是值 而不是 引用，新对象和原独享不共享内存<br>修改新对象不会影响原都西昂<br><strong>浅拷贝：</strong>原对象原数组的引用直接赋给新对象，是同一个引用  </p>
-</blockquote>
+<ul>
+<li>console.info()  </li>
+<li>console.warn()  </li>
+<li>console.error()  </li>
+<li>console.log(dir)</li>
+</ul>
+<h2 id="JS类型转换"><a href="#JS类型转换" class="headerlink" title="JS类型转换"></a>JS类型转换</h2><hr>
 <blockquote>
-<p>扩展运算符实现<br>let arr1 &#x3D; […arr]<br>arr1[0] &#x3D; true  </p>
+<ul>
+<li>typeof NaN &#x3D;&#x3D;&#x3D;&gt; number</li>
+</ul>
 </blockquote>
+<ul>
+<li>true &#x3D;&#x3D; 1 &#x3D;&#x3D;&#x3D;&#x3D;&gt; true  </li>
+<li>99999999999999 &#x3D;&#x3D;&#x3D;&gt; 10000000000000  </li>
+<li>0.5+0.1 &#x3D;&#x3D; 0.6 &#x3D;&#x3D;&gt; true  </li>
+<li>Math.max() &#x3D;&#x3D;&#x3D;&gt;-Infinity   Math.min()  &#x3D;&#x3D;&#x3D;&gt; Infinity  </li>
+<li>[]+[] &#x3D;&#x3D;&#x3D;&gt; “”  </li>
+<li>[]+{} &#x3D;&#x3D;&#x3D;&gt;[object object]  </li>
+<li>{}+[] &#x3D;&#x3D;&#x3D;&gt; 0  </li>
+<li>true+true+true &#x3D;&#x3D;&#x3D;&gt; 3  </li>
+<li>true-true &#x3D;&#x3D;&#x3D;&gt; 0  </li>
+<li>[] &#x3D;&#x3D; 0 &#x3D;&gt;true  </li>
+<li>(!+[]+[]+![]).length   &#x3D;&#x3D;&#x3D;&gt; 9</li>
+</ul>
+<hr>
+<p>** 强弱类型  </p>
 <blockquote>
-<p>循环实现<br>function deepClone(val) {<br>  if(val &#x3D;&#x3D;&#x3D; “object” &amp;&amp; val !&#x3D;&#x3D;null)  {<br>    let result &#x3D; Array.isArray(val)? [] : {}<br>    for(let key in val) {<br>     result[key] &#x3D; deepClone(val[key])<br>    }<br>    return result<br>  }<br>  return val<br>}</p>
+<p>强类型的语言遇到函数参数和实际调用参数类型不符合会直接报错或编译失败<br>  而弱类型语言会实行<em>隐式</em>转换<br>  强：c，c++，java，c fuck，<br>  弱：php，asp，js，python<br>** 静态，动态类型<br>动态编程语言：再运行的时候可以改变其结构的语言，例如对象，函数，代码可以被引进 ，已有的函数可以被删除<br>  运行时才知道一个变量类型<br>  php，ruby，python 而c，c++，java不属于动态语言<br>  静态语言：编译的时候就知道变量类型 </p>
 </blockquote>
-<h3 id="数组交集"><a href="#数组交集" class="headerlink" title="数组交集"></a>数组交集</h3><h4 id="使用filter和includes"><a href="#使用filter和includes" class="headerlink" title="使用filter和includes"></a>使用filter和includes</h4><p>  arr1 &#x3D; [1,2,3,4,4,5]<br>  arr2 &#x3D; [4,5]<br>  new […set(arr1)].filter((item)&#x3D;&gt;arr2.includes(item))<br>  &#x2F;&#x2F;用扩展表达式和set将arr1先去重再变回数组  </p>
-<h3 id="数组元素是对象的时候各种操作"><a href="#数组元素是对象的时候各种操作" class="headerlink" title="数组元素是对象的时候各种操作"></a>数组元素是对象的时候各种操作</h3><blockquote>
-<p> <strong>交集</strong><br>  arr1.filter(item&#x3D;&gt; arr2.some(item2 &#x3D;&gt; item2.id &#x3D;&#x3D;&#x3D; item.id)<br>** 差集**<br>  arr1.filter(item&#x3D;&gt; arr2.every(item2 &#x3D;&gt; tem2.id!&#x3D;&#x3D;item.id))<br>交集<br>  let newArray &#x3D; […arr1,…arr2]<br>  newArray.forEach(item&#x3D;&gt;{<br>   if(!obj[item.id]) {<br>      result.push(item)<br>      obj[item.id] &#x3D; true<br>    }<br>  })</p>
+<h3 id="JS数据类型"><a href="#JS数据类型" class="headerlink" title="JS数据类型"></a>JS数据类型</h3><hr>
+<p>** 在程序运行过程中，类型会被自动确定，可以使用同一个变量保存不同类型的数据<br>** 最新的ECMAScript标准定义了8中数据类型  </p>
+<blockquote>
+<ul>
+<li>Boolean</li>
+</ul>
 </blockquote>
-<p>  obj &#x3D; null<br>  return result<br>}</p>
+<ul>
+<li>Number  </li>
+<li>String  </li>
+<li>Null  </li>
+<li>Undefined  </li>
+<li>Object   </li>
+<li>BigInt  </li>
+<li>Symbol<br>** 注意**：</li>
+<li>+-infinity和NaN都是Number类型  </li>
+<li>对象，数组，Data,正则都是Object  </li>
+<li>typeof null &#x3D;&#x3D;&#x3D;‘object’  对线类型的标签是0，由于null代表<br>空指针，值为0X00 因此null的类型标签是0，所以返回object  <h3 id="JS类型转换-1"><a href="#JS类型转换-1" class="headerlink" title="JS类型转换"></a>JS类型转换</h3>　　**********<br>** js类型转换分为显示类型转换，隐式类型转换  <h4 id="显示类型转换"><a href="#显示类型转换" class="headerlink" title="显示类型转换"></a>显示类型转换</h4></li>
+</ul>
+<hr>
+<p><strong>通过js提供的函数直接转换</strong>  </p>
+<blockquote>
+<ul>
+<li>转换为Number: <strong>Number</strong>,<strong>parseFloat()</strong>,<strong>parseInt()</strong></li>
+</ul>
+</blockquote>
+<ul>
+<li>转换为String: <strong>String()</strong>,<strong>toString()</strong>  </li>
+<li>转换为Boolean ： <strong>Boolean()</strong><br> <strong>js中对象到字符串的经过</strong> <blockquote>
+<ul>
+<li>如果对象有toString方法，则调用，若返回的是基本类型值，js转换为字符串，并返回</li>
+</ul>
+</blockquote>
+</li>
+<li>没有toString方法，且返回的不是基本数据类型。js调用valueOf方法  </li>
+<li>都不行此时抛出 “类型错误异常”</li>
+</ul>
+<p> <strong>注意</strong>：undefined，null，false，+-0，NAN，“”，只有这些toBoolean()是false其余为true  </p>
+<hr>
+<p> <strong>toPrimitive</strong>将值转额外i原始值  </p>
+<blockquote>
+<p>toPrimitive(data.PreferredType) </p>
+</blockquote>
+<h4 id="隐式转换"><a href="#隐式转换" class="headerlink" title="隐式转换"></a>隐式转换</h4><hr>
+<p>js的隐式转换主要涉及 + 和  &#x3D;&#x3D;  </p>
+<p>**[object object]  </p>
+<blockquote>
+<p>将对象数组调用了toString方法，转换为了字符串，注意避免使用+进行隐式转换  </p>
+</blockquote>
+<p>** x &#x3D;&#x3D; y  </p>
+<blockquote>
+<p>x,y为null，undefined两者中一个，返回true<br>  x,y为Number和String类型时，转换为Number类型比较<br>  有Boolean类型时，转换为Number类型比较<br>  一个Object 和一个String或Number比较，将Object进行原始转换<br>     [1]&#x3D;&gt;1  {}&#x3D;&gt;NaN  [1,2]&#x3D;&gt;NaN</p>
+</blockquote>
 
                 
             </div>
@@ -627,7 +682,7 @@ Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://lxyxxnn.abc.efg/2022/05/13/%E6%95%B0%E7%BB%84%E9%9D%A2%E8%AF%95%E9%A2%98/">https://lxyxxnn.abc.efg/2022/05/13/%E6%95%B0%E7%BB%84%E9%9D%A2%E8%AF%95%E9%A2%98/</a>
+                    <a href="https://lxyxxnn.abc.efg/2022/05/15/%E5%AF%B9%E8%B1%A1%E9%9D%A2%E8%AF%95%E9%A2%98/">https://lxyxxnn.abc.efg/2022/05/15/%E5%AF%B9%E8%B1%A1%E9%9D%A2%E8%AF%95%E9%A2%98/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -665,12 +720,16 @@ Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%95%B0%E7%BB%84/">
-                                    <span class="chip bg-color">数组</span>
+                                <a href="/tags/js/">
+                                    <span class="chip bg-color">js</span>
                                 </a>
                             
-                                <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
-                                    <span class="chip bg-color">js面试题</span>
+                                <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                                    <span class="chip bg-color">面试题</span>
+                                </a>
+                            
+                                <a href="/tags/Object/">
+                                    <span class="chip bg-color">Object</span>
                                 </a>
                             
                         </div>
@@ -844,9 +903,10 @@ Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2022/05/15/%E5%AF%B9%E8%B1%A1%E9%9D%A2%E8%AF%95%E9%A2%98/">
                     <div class="card-image">
@@ -864,9 +924,9 @@ Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-15
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-15
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -875,6 +935,7 @@ Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -901,13 +962,13 @@ Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/05/13/%E7%AC%AC%E4%BA%8C%E9%A2%98%E9%82%A3%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                <a href="/2022/05/13/%E6%95%B0%E7%BB%84%E9%9D%A2%E8%AF%95%E9%A2%98/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="字符串相关面试题">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="数组相关面试题">
                         
-                        <span class="card-title">字符串相关面试题</span>
+                        <span class="card-title">数组相关面试题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -935,12 +996,12 @@ Array()构造器  Array() &amp;#x2F;&amp;#x2F;[]  空数组  Array(3) &amp;#x2F;
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
-                        <span class="chip bg-color">js面试题</span>
+                    <a href="/tags/%E6%95%B0%E7%BB%84/">
+                        <span class="chip bg-color">数组</span>
                     </a>
                     
-                    <a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/">
-                        <span class="chip bg-color">字符串</span>
+                    <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                        <span class="chip bg-color">js面试题</span>
                     </a>
                     
                 </div>
