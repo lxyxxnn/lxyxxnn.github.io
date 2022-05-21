@@ -4,9 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="复习springboot, 星惗">
-    <meta name="description" content="什么是springboot springboot是一个管理整合框架的微服务框架，简化了web开发 maven是整合jar包的，springboot是整合框架的
-springboot hello world在官网下载包在idea中新建spri">
+    <meta name="keywords" content="js面试题, 星惗">
+    <meta name="description" content="cookie,localStorage,sessionStorage三者之间区别
+生命周期
+cookie：可设置失效事件，没有设置默认为浏览器关闭失效
+localStorage：除非被手动清除，否则永久保存  
+sessionStorage">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -20,7 +23,7 @@ springboot hello world在官网下载包在idea中新建spri">
 
     
 
-    <title>复习springboot | 星惗</title>
+    <title>js面试题 | 星惗</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -310,12 +313,12 @@ springboot hello world在官网下载包在idea中新建spri">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">复习springboot</h1>
+                    <h1 class="description center-align post-title">js面试题</h1>
                 </div>
             </div>
         </div>
@@ -431,16 +434,12 @@ springboot hello world在官网下载包在idea中新建spri">
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%90%8E%E7%AB%AF/">
-                                <span class="chip bg-color">后端</span>
+                            <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                                <span class="chip bg-color">js面试题</span>
                             </a>
                         
-                            <a href="/tags/java/">
-                                <span class="chip bg-color">java</span>
-                            </a>
-                        
-                            <a href="/tags/%E6%A1%86%E6%9E%B6%EF%BC%8C%E6%8E%A5%E5%8F%A3/">
-                                <span class="chip bg-color">框架，接口</span>
+                            <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                                <span class="chip bg-color">前端</span>
                             </a>
                         
                     </div>
@@ -451,8 +450,8 @@ springboot hello world在官网下载包在idea中新建spri">
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%90%8E%E7%AB%AF/" class="post-category">
-                                后端
+                            <a href="/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/" class="post-category">
+                                面试题
                             </a>
                         
                     </div>
@@ -464,7 +463,7 @@ springboot hello world在官网下载包在idea中新建spri">
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-05-06
+                    2022-05-21
                 </div>
                 
 
@@ -485,8 +484,306 @@ springboot hello world在官网下载包在idea中新建spri">
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="什么是springboot"><a href="#什么是springboot" class="headerlink" title="什么是springboot"></a>什么是springboot</h2><p> springboot是一个管理整合框架的微服务框架，简化了web开发<br> maven是整合jar包的，springboot是整合框架的</p>
-<h2 id="springboot-hello-world"><a href="#springboot-hello-world" class="headerlink" title="springboot hello world"></a>springboot hello world</h2><h3 id="在官网下载包"><a href="#在官网下载包" class="headerlink" title="在官网下载包"></a>在官网下载包</h3><h3 id="在idea中新建spring-initial项目"><a href="#在idea中新建spring-initial项目" class="headerlink" title="在idea中新建spring initial项目"></a>在idea中新建spring initial项目</h3>
+                <h2 id="cookie-localStorage-sessionStorage三者之间区别"><a href="#cookie-localStorage-sessionStorage三者之间区别" class="headerlink" title="cookie,localStorage,sessionStorage三者之间区别"></a>cookie,localStorage,sessionStorage三者之间区别</h2><hr>
+<h3 id="生命周期"><a href="#生命周期" class="headerlink" title="生命周期"></a>生命周期</h3><ul>
+<li>cookie：可设置失效事件，没有设置默认为浏览器关闭失效</li>
+<li>localStorage：除非被手动清除，否则永久保存  </li>
+<li>sessionStorage：仅在当前网页会话下有效，关闭网页或浏览器后被清除 <h3 id="存放数据大小"><a href="#存放数据大小" class="headerlink" title="存放数据大小"></a>存放数据大小</h3></li>
+<li>cookie：4kb左右</li>
+<li>local&#x2F;session：5MB的信息</li>
+</ul>
+<h3 id="HTTP请求"><a href="#HTTP请求" class="headerlink" title="HTTP请求"></a>HTTP请求</h3><ul>
+<li>cookie：每次请求都携带在HTTP投中，使用cookie保存过多会影响性能  </li>
+<li>local&#x2F;session：仅在客户端保存，不参与和服务器的通信</li>
+</ul>
+<h3 id="易用性"><a href="#易用性" class="headerlink" title="易用性"></a>易用性</h3><ul>
+<li>cookie需要程序员自己封装 </li>
+<li>localStorage和session：源生接口可以接收，亦可再次封装来对Object和Array由更好的支持</li>
+</ul>
+<h3 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h3><p>cookie尽可能少用，每次http请求都会携带cookie信息，浪费带宽，cookir还需要指定作用域，不可以<br>跨域调用，用于识别用户登录来说，cookir比storage更好用  </p>
+<p>其他情况使用storage ，现在很少使用cookie<br>local和session的区别是local可以永久保存在浏览器中，另一个是关闭页面就清除信息<br>local用来跨页面传递参数，session保存临时数据，防止用户刷新页面参数丢失  </p>
+<h2 id="怎么实现跨域请求"><a href="#怎么实现跨域请求" class="headerlink" title="怎么实现跨域请求"></a>怎么实现跨域请求</h2><h3 id="同源策略限制的内容"><a href="#同源策略限制的内容" class="headerlink" title="同源策略限制的内容"></a>同源策略限制的内容</h3><p>Cookie  localStorage，indexeDB等存储性内容<br>Dom节点<br>AJAX请求发送，被浏览器拦截  </p>
+<h3 id="允许跨域"><a href="#允许跨域" class="headerlink" title="允许跨域"></a>允许跨域</h3><p><img src>&#x2F;<link href><script src>    </p>
+<blockquote>
+<p>跨域并不是请求发不出去，服务端可以收到请求正常返回结果<br>  被浏览器拦截，表单可以跨域，AJAX不会<br> 跨域是为了阻止用户读取到另一个域名下的内容，<br>AJAX可以获取响应，但浏览器认为不安全，所以拦截了响应<br>表单并不会获取新内容，所以可以发起跨域请求<br>跨域并不能完全阻止CSRF 请求已经发送了  </p>
+</blockquote>
+<h3 id="跨域解决方案"><a href="#跨域解决方案" class="headerlink" title="跨域解决方案"></a>跨域解决方案</h3><hr>
+<h4 id="1-CORS"><a href="#1-CORS" class="headerlink" title="1.CORS"></a>1.CORS</h4><p>只要服务器支持就可以跨域通信<br>CORS分为两类请求  </p>
+<ul>
+<li>简单请求  </li>
+<li>非简单请求<br>** cors请求默认不包含COOKIE和HTTP认证信息，若需要需要满足以下条件  </li>
+<li>Access-Control-Allow-Credentials：true  </li>
+<li>withCredentials = true  </li>
+<li>Access-Control-Allow-Origin不设信号，指定明确的请求网页的域名</li>
+</ul>
+<h5 id="简单请求"><a href="#简单请求" class="headerlink" title="简单请求"></a>简单请求</h5><ul>
+<li>请求方法是HEAD,GET,POST三者之一  </li>
+<li>请求头不操作以下字段  <ul>
+<li>Accept  </li>
+<li>Accept-Language  </li>
+<li>Content-Language  </li>
+<li>Last-Event-Id</li>
+<li>Content-Type： application/x-www/form/urlencoded、multipart/form-data、text/plain</li>
+</ul>
+</li>
+</ul>
+<p>** 浏览器直接发出CORS请求，即在头信息中增加Origin字段，表示请求来源于哪个域<br>** 服务器根据这个值决定是否同意请求<br>** 若同意，则返回的响应会多出以下响应头信息<br>Access-Control-Allow-Origin: <a target="_blank" rel="noopener" href="http://juejin.com/">http://juejin.com</a> // 和 Orign 一致  这个字段是必须的<br>Access-Control-Allow-Credentials: true // 表示是否允许发送 Cookie  这个字段是可选的<br>Access-Control-Expose-Headers: FooBar // 指定返回其他字段的值   这个字段是可选的<br>Content-Type: text/html; charset=utf-8 // 表示文档类型    </p>
+<hr>
+<p>在简单请求中服务器至少需要设置Access-Control-Allow-Origin  </p>
+<h5 id="非简单请求"><a href="#非简单请求" class="headerlink" title="非简单请求"></a>非简单请求</h5><p>PUT和DELETE 或者Content-type为applicaton/json<br><strong>正式请求前会发一次OPTIONS类型的查询请求</strong><br> 询问服务器是否支持网页所在域名的请求<br> 可以使用哪些头信息字段<br> 只有收到肯定的答复，才会发起正式XMLHttpRequset请求  </p>
+<p>**预检请求的方法是OPTIONS<br>** 他的头信息中有几个字段  </p>
+<ul>
+<li>origin：请求来自哪个域  </li>
+<li>Aceess-Control-Request-Method：Cors请求会用到哪些HTTO方法  </li>
+<li>Access-Control+Request-Headers：指定CORS请求会额外发送的“头字段信息”，用逗号给开</li>
+</ul>
+<p>OPTIONs请求次数过多会损耗性能，减少OPTIONS请求，可以让服务器在请求返回头部添加：<br>Access-Control-Max-Age：Number    //表示预检请求的结果可以缓存多久，这个范围时间内不需要预检  </p>
+<h4 id="2-Nginx代理跨域"><a href="#2-Nginx代理跨域" class="headerlink" title="2.Nginx代理跨域"></a>2.Nginx代理跨域</h4><p>配置一个代理服务器向服务器发送请求  再将数据返回客户端<br>server {<br>    listen 81; server_name <a target="_blank" rel="noopener" href="http://www.domain1.com/">www.domain1.com</a>;<br>    location / {<br>        proxy_pass <a target="_blank" rel="noopener" href="http://xxxx1:8080/">http://xxxx1:8080</a>; // 反向代理<br>        proxy_cookie_domain <a target="_blank" rel="noopener" href="http://www.xxxx1.com/">www.xxxx1.com</a> <a target="_blank" rel="noopener" href="http://www.xxxx2.com/">www.xxxx2.com</a>; // 修改cookie里域名<br>        index index.html index.htm;<br>        // 当用webpack-dev-server等中间件代理接口访问nignx时，此时无浏览器参与，故没有同源限制，下面的跨域配置可不启用<br>        add_header Access-Control-Allow-Origin <a target="_blank" rel="noopener" href="http://www.xxxx2.com/">http://www.xxxx2.com</a>; // 当前端只跨域不带cookie时，可为*<br>        add_header Access-Control-Allow-Credentials true;<br>    }<br>}  </p>
+<p>3.Node中间件代理跨域<br>在 Vue.config.js中配置<br>module.export = {<br>    ...<br>    devServer: {<br>        proxy: {<br>            [ process.env.VUE_APP_BASE_API ]: {<br>                target: &#39;<a target="_blank" rel="noopener" href="http://xxxx/&#39;,//%E4%BB%A3%E7%90%86%E8%B7%A8%E5%9F%9F%E7%9B%AE%E6%A0%87%E6%8E%A5%E5%8F%A3">http://xxxx\&#39;,//代理跨域目标接口</a><br>                ws: true,<br>                changeOrigin: true,<br>                pathRewrite: {<br>                    [ &#39;^&#39; + process.env.VUE_APP_BASE_API ] : &#39;&#39;<br>                }<br>            }<br>        }<br>    }<br>}</p>
+<p>Node+express<br>const express = require(&#39;express&#39;)<br>const proxy = require(&#39;http-proxy-middleware&#39;)<br>const app = express()<br>app.use(&#39;/&#39;, proxy({<br>    // 代理跨域目标接口<br>    target: &#39;<a target="_blank" rel="noopener" href="http://xxxx:8080/&#39;">http://xxxx:8080\&#39;</a>,<br>    changeOrigin: true,<br>    // 修改响应头信息，实现跨域并允许带cookie<br>    onProxyRes: function(proxyRes, req, res) {<br>        res.header(&#39;Access-Control-Allow-Origin&#39;, &#39;<a target="_blank" rel="noopener" href="http://xxxx/&#39;">http://xxxx\&#39;</a>)<br>        res.header(&#39;Access-Control-Allow-Credentials&#39;, &#39;true&#39;)<br>    },<br>    // 修改响应信息中的cookie域名<br>    cookieDomainRewrite: &#39;<a target="_blank" rel="noopener" href="http://www.domain1.com/&#39;">www.domain1.com\&#39;</a> // 可以为false，表示不修改<br>}));<br>app.listen(3000);   </p>
+<hr>
+<h4 id="WebSocket"><a href="#WebSocket" class="headerlink" title="WebSocket"></a>WebSocket</h4><p>WebSocket是HTML5中的一种通信协议  </p>
+<ul>
+<li>ws://非加密  </li>
+<li>wss://加密<br>不实行同源政策，服务器支持就行<br>WebSocket请求头中有Origin字段，表示请求来自哪个域，服务器根据这个字段判断是否允许本次通信<br>在白名单即可同学呢</li>
+</ul>
+<h4 id="5-postMessage"><a href="#5-postMessage" class="headerlink" title="5.postMessage"></a>5.postMessage</h4><p>页面和新打开的窗口间数据传递<br>多窗口之间数据传递<br>页面与嵌套的 iframe 之间数据传递<br>上面三个场景之间的跨域传递<br>postMessage 接受两个参数，用法如下：</p>
+<p>参数一：发送的数据<br>参数二：你要发送给谁就写谁的地址(协议 + 域名 +端口)，也可以设置为*，表示任意窗口，为/表示与当前窗口同源的窗口  </p>
+<ol start="6">
+<li>JSONP<br>原理就是通过添加一个<script>标签，向服务器请求JSON数据，这样不受同源政策限制。服务器收到请求后，将数据放在一个callback回调函数中传回来。比如axios。</li>
+</ol>
+<p>不过只支持GET请求且不安全，可能遇到XSS攻击，不过它的好处是可以向老浏览器或不支持CORS的网站请求数据  </p>
+<h3 id="跨域时cookie和处理"><a href="#跨域时cookie和处理" class="headerlink" title="跨域时cookie和处理"></a>跨域时cookie和处理</h3><p>指对第三方使用Cookie设置，在cookie中添加SameSite属性  </p>
+<blockquote>
+<p>Set-Cookie: widget_session=123456; SameSite=None; Secure</p>
+</blockquote>
+<ul>
+<li>strict  严格模式，完全禁止使用Cookie</li>
+<li>lax  宽松模式，允许部分情况使用Cookie，跨域的都行，a标签跳转，link标签，GET提交的表单</li>
+<li>none  何情况下都会发送Cookie，但必须同时设置Secure属性，意思是需要安全上下文，Cookie 只能通过https发送，否则无效</li>
+</ul>
+<h2 id="自定义指令"><a href="#自定义指令" class="headerlink" title="自定义指令"></a>自定义指令</h2><h3 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h3><p>ｖｕｅ中提供了一套为数据驱动视图更方便的操作，这些奥做被称为指令系统　　</p>
+<h3 id="自定义指令-1"><a href="#自定义指令-1" class="headerlink" title="自定义指令"></a>自定义指令</h3><p>注册一个全局指令和局部指令<br>** 五安居注册通过Vue.directive  </p>
+<blockquote>
+<p>Vue.directive第一个参数是指令的名字（不需要写上v-前缀），第二个参数可以是对象数据，也可以是一个指令函数<br>全局<br>Vue.directive('focus',{<br>inserted:function(el)  { // 钩子inserted 当绑定的元素被插入DOM中  </p>
+</blockquote>
+<p>  el.focus()}<br>})</p>
+<p>** 局部<br>directive：{<br>focus：{<br>  // 指令的定义<br>    inserted: function (el) {<br>      el.focus() // 页面加载完成之后自动让输入框获取到焦点的小功能<br>}}  </p>
+<p>**使用<br><input v-focus />  </p>
+<h4 id="自定义指令的钩子函数-，类似于组件"><a href="#自定义指令的钩子函数-，类似于组件" class="headerlink" title="自定义指令的钩子函数  ，类似于组件"></a>自定义指令的钩子函数  ，类似于组件</h4><ul>
+<li><p>bing:  只调用一次，指令第一次绑定到元素时调用。在这里可以进行一次性的初始化设置</p>
+</li>
+<li><p>inserted:  被绑定元素插入父节点时调用 (仅保证父节点存在，但不一定已被插入文档中)</p>
+</li>
+<li><p>update:  所在组件的 VNode 更新时调用，但是可能发生在其子 VNode 更新之前。指令的值可能发生了改变，也可能没有。但是你可以通过比较更新前后的值来忽略不必要的模板更新  </p>
+</li>
+<li><p>componenUpdated:  指令所在组件的 VNode 及其子 VNode 全部更新后调用</p>
+</li>
+<li><p>ubind: 只调用一次，指令与元素解绑时调用</p>
+<h4 id="钩子中参数"><a href="#钩子中参数" class="headerlink" title="钩子中参数"></a>钩子中参数</h4></li>
+<li><p>el:绑定的ｄｏｍ，可直接操作</p>
+</li>
+<li><p>binding：一个对象</p>
+<blockquote>
+<ul>
+<li>name  指令名</li>
+</ul>
+</blockquote>
+<ul>
+<li>value  指令的绑定值，如　　 v-text="lxy",lxy就是value  </li>
+<li>oldValue  指令绑定的前一个值，仅在componeUpdated中可用</li>
+<li>expression  字符串形式的指令表达式v-my-directive="1 + 1"</li>
+<li>arg   传给指令的参数 ，v-my-directive:foo 中，参数为 "foo</li>
+<li>modifiers  个包含修饰符的对象。例如：v-my-directive.foo.bar 中，修饰符对象为 { foo: true, bar: true }</li>
+</ul>
+</li>
+<li><p>vnode:  Vue 编译生成的虚拟节点</p>
+</li>
+<li><p>oldvnode  上一个虚拟节点，仅在 update 和 componentUpdated 钩子中可用<br>**除了ｅｌ其他参数都是只读的，不可修改，通过dateset  在钩子间共享数据</p>
+</li>
+</ul>
+<p>　　</p>
+<h3 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h3><ul>
+<li>防抖</li>
+<li>图片懒加载 </li>
+<li>一键copy</li>
+</ul>
+<h4 id="防抖-v-debounce"><a href="#防抖-v-debounce" class="headerlink" title="防抖　v-debounce"></a>防抖　v-debounce</h4><blockquote>
+<p> Vue.directive('debounce',{<br>bind:(el,binding) => {<br> let debounceTime = binding.value; //绑定的参数，防抖时间<br>if(!debounceTime) {  //如果用户不设置防抖时间<br> debounceTime = 2000<br>}<br>let cbFun<br>el.addEventListener('clcik',event=>{<br>if(!cbFun) {<br>cbFun = setTimeout(()=>{<br>cbFun= null;<br>},debounceTime);<br>} else {<br>event&&event.stopImmidatePropagation()<br>}<br>},true) //false默认为冒泡，true为捕捉<br>  }<br>})</p>
+</blockquote>
+<p><button @click="sayHello" v-debounce>提交</button>  </p>
+<h4 id="懒加载v-lazy"><a href="#懒加载v-lazy" class="headerlink" title="懒加载v-lazy"></a>懒加载v-lazy</h4><p>const LazyLoad = {<br>    // install方法<br>    install(Vue,options){<br>          // 代替图片的loading图<br>        let defaultSrc = options.default;<br>        Vue.directive('lazy',{<br>            bind(el,binding){<br>                LazyLoad.init(el,binding.value,defaultSrc);<br>            },<br>            inserted(el){<br>                // 兼容处理<br>                if('IntersectionObserver' in window){<br>                    LazyLoad.observe(el);<br>                }else{<br>                    LazyLoad.listenerScroll(el);<br>                }</p>
+<pre><code>        &#125;,
+    &#125;)
+&#125;,
+// 初始化
+init(el,val,def)&#123;
+    // data-src 储存真实src
+    el.setAttribute(&#39;data-src&#39;,val);
+    // 设置src为loading图
+    el.setAttribute(&#39;src&#39;,def);
+&#125;,
+// 利用IntersectionObserver监听el
+observe(el)&#123;
+    let io = new IntersectionObserver(entries =&gt; &#123;
+        let realSrc = el.dataset.src;
+        if(entries[0].isIntersecting)&#123;
+            if(realSrc)&#123;
+                el.src = realSrc;
+                el.removeAttribute(&#39;data-src&#39;);
+            &#125;
+        &#125;
+    &#125;);
+    io.observe(el);
+&#125;,
+// 监听scroll事件
+listenerScroll(el)&#123;
+    let handler = LazyLoad.throttle(LazyLoad.load,300);
+    LazyLoad.load(el);
+    window.addEventListener(&#39;scroll&#39;,() =&gt; &#123;
+        handler(el);
+    &#125;);
+&#125;,
+// 加载真实图片
+load(el)&#123;
+    let windowHeight = document.documentElement.clientHeight
+    let elTop = el.getBoundingClientRect().top;
+    let elBtm = el.getBoundingClientRect().bottom;
+    let realSrc = el.dataset.src;
+    if(elTop - windowHeight&lt;0&amp;&amp;elBtm &gt; 0)&#123;
+        if(realSrc)&#123;
+            el.src = realSrc;
+            el.removeAttribute(&#39;data-src&#39;);
+        &#125;
+    &#125;
+&#125;,
+// 节流
+throttle(fn,delay)&#123;
+    let timer; 
+    let prevTime;
+    return function(...args)&#123;
+        let currTime = Date.now();
+        let context = this;
+        if(!prevTime) prevTime = currTime;
+        clearTimeout(timer);
+        
+        if(currTime - prevTime &gt; delay)&#123;
+            prevTime = currTime;
+            fn.apply(context,args);
+            clearTimeout(timer);
+            return;
+        &#125;
+
+        timer = setTimeout(function()&#123;
+            prevTime = Date.now();
+            timer = null;
+            fn.apply(context,args);
+        &#125;,delay);
+    &#125;
+&#125;
+</code></pre>
+<p>}<br>export default LazyLoad;</p>
+<h4 id="v-copy一键复制"><a href="#v-copy一键复制" class="headerlink" title="v-copy一键复制"></a>v-copy一键复制</h4><p>import { Message } from 'ant-design-vue';</p>
+<p>const vCopy = { //<br>  /*<br>    bind 钩子函数，第一次绑定时调用，可以在这里做初始化设置<br>    el: 作用的 dom 对象<br>    value: 传给指令的值，也就是我们要 copy 的值<br>  */<br>  bind(el, { value }) {<br>    el.$value = value; // 用一个全局属性来存传进来的值，因为这个值在别的钩子函数里还会用到<br>    el.handler = () => {<br>      if (!el.$value) {<br>      // 值为空的时候，给出提示，我这里的提示是用的 ant-design-vue 的提示，你们随意<br>        Message.warning('无复制内容');<br>        return;<br>      }<br>      // 动态创建 textarea 标签<br>      const textarea = document.createElement('textarea');<br>      // 将该 textarea 设为 readonly 防止 iOS 下自动唤起键盘，同时将 textarea 移出可视区域<br>      textarea.readOnly = 'readonly';<br>      textarea.style.position = 'absolute';<br>      textarea.style.left = '-9999px';<br>      // 将要 copy 的值赋给 textarea 标签的 value 属性<br>      textarea.value = el.$value;<br>      // 将 textarea 插入到 body 中<br>      document.body.appendChild(textarea);<br>      // 选中值并复制<br>      textarea.select();<br>      // textarea.setSelectionRange(0, textarea.value.length);<br>      const result = document.execCommand('Copy');<br>      if (result) {<br>        Message.success('复制成功');<br>      }<br>      document.body.removeChild(textarea);<br>    };<br>    // 绑定点击事件，就是所谓的一键 copy 啦<br>    el.addEventListener('click', el.handler);<br>  },<br>  // 当传进来的值更新的时候触发<br>  componentUpdated(el, { value }) {<br>    el.$value = value;<br>  },<br>  // 指令与元素解绑的时候，移除事件绑定<br>  unbind(el) {<br>    el.removeEventListener('click', el.handler);<br>  },<br>};</p>
+<p>export default vCopy;<br>**除此之外还有　</p>
+<ul>
+<li>拖拽指令  </li>
+<li>页面水印  </li>
+<li>权限校验</li>
+</ul>
+<h2 id="实现浏览器内多个标签页之间通信"><a href="#实现浏览器内多个标签页之间通信" class="headerlink" title="实现浏览器内多个标签页之间通信"></a>实现浏览器内多个标签页之间通信</h2><hr>
+<h3 id="localStorage-session在每个标签页之间是单独的，会话级存储空间"><a href="#localStorage-session在每个标签页之间是单独的，会话级存储空间" class="headerlink" title="localStorage (session在每个标签页之间是单独的，会话级存储空间)"></a>localStorage (session在每个标签页之间是单独的，会话级存储空间)</h3><h3 id="WebSocket-全双工"><a href="#WebSocket-全双工" class="headerlink" title="WebSocket 全双工"></a>WebSocket 全双工</h3><h3 id="postMessage"><a href="#postMessage" class="headerlink" title="postMessage"></a>postMessage</h3><p>两个需要交互的tap页面有依赖关系  </p>
+<ul>
+<li>A页面需要通过js的window.open打开B页面  </li>
+<li>B页面需要通过iframe嵌入到A页面<br>**　B需要对A页面进行通信，只需要在B页面侦听message事件，获取事件中的source对象<br>** 该对象为A页面window对象的引用</li>
+</ul>
+<hr>
+<p>postMessage第一个参数是消息实体，它是一个结构化对象 ，他传的值可以通过JSON.stringfy和JSON.parse还原对象<br>第二个参数为消息发送的范围  </p>
+<ul>
+<li>“/”代表发送给同源页面  </li>
+<li>“*”代表全部页面</li>
+</ul>
+<h2 id="es5的类和class有什么区别"><a href="#es5的类和class有什么区别" class="headerlink" title="es5的类和class有什么区别"></a>es5的类和class有什么区别</h2><hr>
+<p>在es5中通过构造函数方式和原型方式来定义一个类<br>es6中通过class来定义  </p>
+<ul>
+<li>class必须new调用，不能直接执行</li>
+<li>class不存在变量提升  </li>
+<li>class类无法遍历他原型链上的属性和方法  </li>
+<li>new.target  <blockquote>
+<p>返回new命令作用于哪个构造函数，如果不是new调用或者Reflect.constructor调用返回undefined<br>用于避免类的误调用  </p>
+</blockquote>
+</li>
+<li>class有静态static方法，如果静态方法上有this（指的是类），static声明的静态属性和方法都可以被子类继承</li>
+</ul>
+<h2 id="jquery的链式调用如何实现"><a href="#jquery的链式调用如何实现" class="headerlink" title="jquery的链式调用如何实现"></a>jquery的链式调用如何实现</h2><hr>
+<blockquote>
+<p>比如：$('div').eq(0).css("width","200px").show()<br>链式调用的核心在于调用完的方法将自身实例返回  </p>
+</blockquote>
+<h3 id="实现一个简单的链式调用"><a href="#实现一个简单的链式调用" class="headerlink" title="实现一个简单的链式调用"></a>实现一个简单的链式调用</h3><p>class listFunc {<br> // 初始化<br>  constructor(val) {<br>    this.arr = [...val];<br>    return this;<br>  }<br>  get() {<br>    console.log(this.arr);<br>    return this;<br>  }<br>  push(val) {<br>    console.log(this.arr);<br>    this.arr.push(val);<br>    return this;<br>  }<br>  pop() {<br>    console.log(this.arr);<br>    this.arr.pop();<br>    return this;<br>  }<br>}<br>const list = new listFunc([1, 2, 3]);<br>list.get().pop().push('ldq')  </p>
+<h2 id="背包问题"><a href="#背包问题" class="headerlink" title="背包问题"></a>背包问题</h2><blockquote>
+<p>已知：N件物品和V容量的背包，每件物品仅一件<br>  第i件体积是V[i]，价值是W[i]<br> 求解，将哪些物品装入背包，总体积不超过背包容量，总价值最大  </p>
+</blockquote>
+<p>var selected =[],ws = [2,2,6,5,4].vs=[6,3,5,4,6]<br>var b = knapsack(5,10,ws,vs,selected)<br>console.log(b)<br>selected.forEach((el,i)=>{<br>  if(el)  {<br>   console.log("选择了物品"+i+"重量为"+ws[i]+"价值为"+vs[i])<br> }<br>})</p>
+<p>function knapsack(n, W, weights, values, selected) {<br>    if (n == 0 || W == 0) {<br>        //当物品数量为0，或者背包容量为0时，最优解为0<br>        return 0;<br>    } else {<br>        //从当前所剩物品的最后一个物品开始向前，逐个判断是否要添加到背包中<br>        for (var i = n - 1; i >= 0; i--) {<br>            //如果当前要判断的物品重量大于背包当前所剩的容量，那么就不选择这个物品<br>            //在这种情况的最优解为f(n-1,C)<br>            if (weights[i] > W) {<br>                return knapsack(n - 1, W, weights, values, selected);<br>            } else {<br>                var a = knapsack(n - 1, W, weights, values, selected); //不选择物品i的情况下的最优解<br>                var b = values[i] + knapsack(n - 1, W - weights[i], weights, values, selected); //选择物品i的情况下的最优解<br>                //返回选择物品i和不选择物品i中最优解大的一个<br>                if (a > b) {<br>                    selected[i] = 0; //这种情况下表示物品i未被选取<br>                    return a;<br>                } else {<br>                    selected[i] = 1; //物品i被选取<br>                    return b;<br>                }<br>            }<br>        }<br>    }<br>}          </p>
+<h2 id="全排列"><a href="#全排列" class="headerlink" title="全排列"></a>全排列</h2><blockquote>
+<p>输入numes [1,2,3]<br>   输出[[1,2,3],[1,3,2],[2,1,3],[2,3,1],...]<br> ** 运用树结构来实现，深度优先遍历使用栈，广度优先遍历使用队列    </p>
+</blockquote>
+<h2 id="几个页面生命周期事件的理解"><a href="#几个页面生命周期事件的理解" class="headerlink" title="几个页面生命周期事件的理解"></a>几个页面生命周期事件的理解</h2><ul>
+<li><p>DOMContentLoaded   </p>
+<blockquote>
+<p>浏览器完全加载了HTML并构建了DOM树，但<img>和样式表之类“外部”资源尚未加载完成<br>DOM尊卑就绪时，被触发<br><scirpt>会阻塞DOMcontentLoaded。等待他们执行结束  </p>
+</blockquote>
+</li>
+<li><p>load  </p>
+<blockquote>
+<p>外部资源和HTML都加载完毕<br> window.onload：样式，图片其他资源被加载完成触发</p>
+</blockquote>
+</li>
+<li><p>beforeunload  </p>
+</li>
+<li><p>unload  </p>
+<blockquote>
+<p>当用户正在离开界面时</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="生成1-10000的数组"><a href="#生成1-10000的数组" class="headerlink" title="生成1-10000的数组"></a>生成1-10000的数组</h2><p>Array.from(new Array(10001),key()).slice(1)</p>
+<p>Array.from({lenght:10000},(node,i)=>i+1)</p>
+<p>new Array(10001).forEach((item,i)=>{<br> item = i+1<br>})  </p>
+<h2 id="如何实现扫描二维码登录pc网站"><a href="#如何实现扫描二维码登录pc网站" class="headerlink" title="如何实现扫描二维码登录pc网站"></a>如何实现扫描二维码登录pc网站</h2><h3 id="二维码登录本质"><a href="#二维码登录本质" class="headerlink" title="二维码登录本质"></a>二维码登录本质</h3><p>一种认证方式  </p>
+<ul>
+<li>告诉系统我是谁  </li>
+<li>向系统正证明我是谁</li>
+</ul>
+<h3 id="具体流程-、"><a href="#具体流程-、" class="headerlink" title="具体流程  、"></a>具体流程  、</h3><h4 id="生成二维码"><a href="#生成二维码" class="headerlink" title="生成二维码"></a>生成二维码</h4><ul>
+<li>pc向服务器发送请求，告诉服务端要生成用户登录的二维码，把pc端设备信息也传给服务器  </li>
+<li>服务端生成二维码ID，将ID于pc端设备信息进行绑定  </li>
+<li>把ID返回给PC  </li>
+<li>PC 收到二维码ID后，生成二维码，包含ID  </li>
+<li>为了知道二维码的状态，客户端在展现二维码后，pc端不断的轮询服务端<br> 每隔1秒就轮询一次，请求服务器好书当前二维码的状态和相关信息</li>
+</ul>
+<h4 id="扫描二维码"><a href="#扫描二维码" class="headerlink" title="扫描二维码"></a>扫描二维码</h4><ul>
+<li>用户用手机去扫描PC端的二维码，通过二维码内容取到其中的二维码ID  </li>
+<li>再调用服务端API将移动端的身份信息与二维码ID一起发送给服务端  </li>
+<li>服务端接收到后，它可以将身份信息与二维码ID进行绑定，生成临时token。然后返回给手机端  </li>
+<li>因为PC端一直在轮询二维码状态，所以这时候二维码状态发生了改变，它就可以在界面上把二维码状态更新为已扫描</li>
+</ul>
+<h4 id="状态确认"><a href="#状态确认" class="headerlink" title="状态确认"></a>状态确认</h4><ul>
+<li>手机端在接收到临时token后会弹出确认登录界面，用户点击确认时，手机端携带临时token用来调用服务端的接口，告诉服务端，我已经确认  </li>
+<li>服务端收到确认后，根据二维码ID绑定的设备信息与账号信息，生成用户PC端登录的token  </li>
+<li>这时候PC端的轮询接口，它就可以得知二维码的状态已经变成了"已确认"。并且从服务端可以获取到用户登录的token  </li>
+<li>到这里，登录就成功了，后端PC端就可以用token去访问服务端的资源了</li>
+</ul>
+<h2 id="undefined和ReferenceError：xxx-is-not-defined有什么区别"><a href="#undefined和ReferenceError：xxx-is-not-defined有什么区别" class="headerlink" title="undefined和ReferenceError：xxx is not defined有什么区别"></a>undefined和ReferenceError：xxx is not defined有什么区别</h2><ul>
+<li>前者当一个变量声明后没有赋值，他就是undefined  </li>
+<li>后者是尝试引用一个未定义的变量，函数时候，抛出ReferenceError</li>
+</ul>
+<h2 id="Math-ceil-、Math-round-、Math-floor-三者的区别是什么？"><a href="#Math-ceil-、Math-round-、Math-floor-三者的区别是什么？" class="headerlink" title="Math.ceil()、Math.round()、Math.floor()三者的区别是什么？"></a>Math.ceil()、Math.round()、Math.floor()三者的区别是什么？</h2><ul>
+<li>Math.ceil向上取整  </li>
+<li>Math.floor向下取整  </li>
+<li>Math.round() 四舍五入</li>
+</ul>
+
                 
             </div>
             <hr/>
@@ -512,7 +809,7 @@ springboot hello world在官网下载包在idea中新建spri">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://lxyxxnn.abc.efg/2022/05/06/springboot/">https://lxyxxnn.abc.efg/2022/05/06/springboot/</a>
+                    <a href="https://lxyxxnn.abc.efg/2022/05/21/%E9%9D%A2%E8%AF%95%E9%A2%982/">https://lxyxxnn.abc.efg/2022/05/21/%E9%9D%A2%E8%AF%95%E9%A2%982/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -550,16 +847,12 @@ springboot hello world在官网下载包在idea中新建spri">
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%90%8E%E7%AB%AF/">
-                                    <span class="chip bg-color">后端</span>
+                                <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                                    <span class="chip bg-color">js面试题</span>
                                 </a>
                             
-                                <a href="/tags/java/">
-                                    <span class="chip bg-color">java</span>
-                                </a>
-                            
-                                <a href="/tags/%E6%A1%86%E6%9E%B6%EF%BC%8C%E6%8E%A5%E5%8F%A3/">
-                                    <span class="chip bg-color">框架，接口</span>
+                                <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                                    <span class="chip bg-color">前端</span>
                                 </a>
                             
                         </div>
@@ -733,17 +1026,18 @@ springboot hello world在官网下载包在idea中新建spri">
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2022/05/12/%E7%AC%AC%E4%B8%80%E5%A4%A9%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                <a href="/2022/05/21/%E9%9D%A2%E8%AF%95%E9%A2%982/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="面试题第一天">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="js面试题">
                         
-                        <span class="card-title">面试题第一天</span>
+                        <span class="card-title">js面试题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -753,9 +1047,9 @@ springboot hello world在官网下载包在idea中新建spri">
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-12
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-21
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -768,15 +1062,16 @@ springboot hello world在官网下载包在idea中新建spri">
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/js/">
-                        <span class="chip bg-color">js</span>
+                    <a href="/tags/js%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                        <span class="chip bg-color">js面试题</span>
                     </a>
                     
-                    <a href="/tags/%E6%95%B0%E7%BB%84/">
-                        <span class="chip bg-color">数组</span>
+                    <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                        <span class="chip bg-color">前端</span>
                     </a>
                     
                 </div>
@@ -787,16 +1082,16 @@ springboot hello world在官网下载包在idea中新建spri">
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/05/06/springboot/">
+                <a href="/2022/05/21/%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="复习springboot">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">复习springboot</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -807,36 +1102,15 @@ springboot hello world在官网下载包在idea中新建spri">
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-06
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-21
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%90%8E%E7%AB%AF/" class="post-category">
-                                    后端
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            XingNian
                             
                         </span>
                     </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%90%8E%E7%AB%AF/">
-                        <span class="chip bg-color">后端</span>
-                    </a>
-                    
-                    <a href="/tags/java/">
-                        <span class="chip bg-color">java</span>
-                    </a>
-                    
-                    <a href="/tags/%E6%A1%86%E6%9E%B6%EF%BC%8C%E6%8E%A5%E5%8F%A3/">
-                        <span class="chip bg-color">框架，接口</span>
-                    </a>
-                    
                 </div>
                 
             </div>

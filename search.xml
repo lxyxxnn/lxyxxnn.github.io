@@ -1,53 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo 添加分类及标签</title>
-    <url>/2019/04/24/My-New-Post/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hello hexo markdown</title>
-    <url>/2016/11/16/headwrite/</url>
-    <content><![CDATA[<p>我是短小精悍的文章摘要(๑•̀ㅂ•́) ✧</p>
-<span id="more"></span>
-
-<p>紧接着文章摘要的正文内容</p>
-<p>啦啦啦啦德玛西亚开着法拉利</p>
-]]></content>
-      <tags>
-        <tag>hello</tag>
-        <tag>hexo</tag>
-        <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2017/05/26/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-  </entry>
-  <entry>
     <title>复习springboot</title>
     <url>/2022/05/06/springboot/</url>
     <content><![CDATA[<h2 id="什么是springboot"><a href="#什么是springboot" class="headerlink" title="什么是springboot"></a>什么是springboot</h2><p> springboot是一个管理整合框架的微服务框架，简化了web开发<br> maven是整合jar包的，springboot是整合框架的</p>
@@ -59,56 +12,6 @@
         <tag>后端</tag>
         <tag>java</tag>
         <tag>框架，接口</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Retrofit视频教程，实战开发</title>
-    <url>/2020/11/01/test1tags/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Retrofit</category>
-      </categories>
-      <tags>
-        <tag>http</tag>
-        <tag>retrofit</tag>
-        <tag>retrofit视频教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/05/05/hello-world2/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>abc</title>
-    <url>/2022/05/06/abc/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>面试题1</title>
-    <url>/2022/05/12/mianshi/</url>
-    <content><![CDATA[<h2 id="内容1"><a href="#内容1" class="headerlink" title="内容1"></a>内容1</h2><p>阿西吧</p>
-<h3 id="三级小标题"><a href="#三级小标题" class="headerlink" title="三级小标题"></a>三级小标题</h3><h2 id="内容2"><a href="#内容2" class="headerlink" title="内容2"></a>内容2</h2><p>阿西吧</p>
-<h3 id="三级小标题-1"><a href="#三级小标题-1" class="headerlink" title="三级小标题"></a>三级小标题</h3><h3 id="三级小标题-2"><a href="#三级小标题-2" class="headerlink" title="三级小标题"></a>三级小标题</h3><p>外部链接: <a href="https://www.baidu.com/">链接代名词</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hello world</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>面试题</category>
-      </categories>
-      <tags>
-        <tag>前端面试题</tag>
       </tags>
   </entry>
   <entry>
@@ -571,6 +474,648 @@ var addStrings &#x3D; function(num1,num2) {<br>let i &#x3D; num1.length - 1,j&#x
         <tag>js</tag>
         <tag>面试题</tag>
         <tag>Object</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vite+vue3+typescirpt+pinia搭建一套企业级开发脚手架</title>
+    <url>/2022/05/17/vite-vue3-typescript/</url>
+    <content><![CDATA[<h1 id="啊哈哈哈"><a href="#啊哈哈哈" class="headerlink" title="啊哈哈哈"></a>啊哈哈哈</h1><p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/825027e9db2847afbbe9c004e50b9a0d~tplv-k3u1fbpfcp-zoom-crop-mark:1304:1304:1304:734.awebp" alt="vite+vue+typescript"></p>
+]]></content>
+      <categories>
+        <category>框架</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>框架</tag>
+        <tag>练习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2022/05/21/%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6/</url>
+    <content><![CDATA[<h1 id="vue3-vite-typescript-pinia-naive-Admin管理系统"><a href="#vue3-vite-typescript-pinia-naive-Admin管理系统" class="headerlink" title="vue3+vite+typescript+pinia+naive(Admin管理系统)"></a>vue3+vite+typescript+pinia+naive(Admin管理系统)</h1><h2 id="第一步，项目搭建"><a href="#第一步，项目搭建" class="headerlink" title="第一步，项目搭建"></a>第一步，项目搭建</h2><h2 id="第二步-项目配置"><a href="#第二步-项目配置" class="headerlink" title="第二步,项目配置"></a>第二步,项目配置</h2><h2 id="路由搭建"><a href="#路由搭建" class="headerlink" title="路由搭建"></a>路由搭建</h2><h2 id="封装axios"><a href="#封装axios" class="headerlink" title="封装axios"></a>封装axios</h2><h2 id="编写页面"><a href="#编写页面" class="headerlink" title="编写页面"></a>编写页面</h2><h2 id="调用接口"><a href="#调用接口" class="headerlink" title="调用接口"></a>调用接口</h2><h2 id="完善打包"><a href="#完善打包" class="headerlink" title="完善打包"></a>完善打包</h2>]]></content>
+  </entry>
+  <entry>
+    <title>js面试题</title>
+    <url>/2022/05/21/%E9%9D%A2%E8%AF%95%E9%A2%982/</url>
+    <content><![CDATA[<h2 id="cookie-localStorage-sessionStorage三者之间区别"><a href="#cookie-localStorage-sessionStorage三者之间区别" class="headerlink" title="cookie,localStorage,sessionStorage三者之间区别"></a>cookie,localStorage,sessionStorage三者之间区别</h2><hr>
+<h3 id="生命周期"><a href="#生命周期" class="headerlink" title="生命周期"></a>生命周期</h3><ul>
+<li>cookie：可设置失效事件，没有设置默认为浏览器关闭失效</li>
+<li>localStorage：除非被手动清除，否则永久保存  </li>
+<li>sessionStorage：仅在当前网页会话下有效，关闭网页或浏览器后被清除 <h3 id="存放数据大小"><a href="#存放数据大小" class="headerlink" title="存放数据大小"></a>存放数据大小</h3></li>
+<li>cookie：4kb左右</li>
+<li>local&#x2F;session：5MB的信息</li>
+</ul>
+<h3 id="HTTP请求"><a href="#HTTP请求" class="headerlink" title="HTTP请求"></a>HTTP请求</h3><ul>
+<li>cookie：每次请求都携带在HTTP投中，使用cookie保存过多会影响性能  </li>
+<li>local&#x2F;session：仅在客户端保存，不参与和服务器的通信</li>
+</ul>
+<h3 id="易用性"><a href="#易用性" class="headerlink" title="易用性"></a>易用性</h3><ul>
+<li>cookie需要程序员自己封装 </li>
+<li>localStorage和session：源生接口可以接收，亦可再次封装来对Object和Array由更好的支持</li>
+</ul>
+<h3 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h3><p>cookie尽可能少用，每次http请求都会携带cookie信息，浪费带宽，cookir还需要指定作用域，不可以<br>跨域调用，用于识别用户登录来说，cookir比storage更好用  </p>
+<p>其他情况使用storage ，现在很少使用cookie<br>local和session的区别是local可以永久保存在浏览器中，另一个是关闭页面就清除信息<br>local用来跨页面传递参数，session保存临时数据，防止用户刷新页面参数丢失  </p>
+<h2 id="怎么实现跨域请求"><a href="#怎么实现跨域请求" class="headerlink" title="怎么实现跨域请求"></a>怎么实现跨域请求</h2><h3 id="同源策略限制的内容"><a href="#同源策略限制的内容" class="headerlink" title="同源策略限制的内容"></a>同源策略限制的内容</h3><p>Cookie  localStorage，indexeDB等存储性内容<br>Dom节点<br>AJAX请求发送，被浏览器拦截  </p>
+<h3 id="允许跨域"><a href="#允许跨域" class="headerlink" title="允许跨域"></a>允许跨域</h3><p><img src>&#x2F;<link href><script src>    </p>
+<blockquote>
+<p>跨域并不是请求发不出去，服务端可以收到请求正常返回结果<br>  被浏览器拦截，表单可以跨域，AJAX不会<br> 跨域是为了阻止用户读取到另一个域名下的内容，<br>AJAX可以获取响应，但浏览器认为不安全，所以拦截了响应<br>表单并不会获取新内容，所以可以发起跨域请求<br>跨域并不能完全阻止CSRF 请求已经发送了  </p>
+</blockquote>
+<h3 id="跨域解决方案"><a href="#跨域解决方案" class="headerlink" title="跨域解决方案"></a>跨域解决方案</h3><hr>
+<h4 id="1-CORS"><a href="#1-CORS" class="headerlink" title="1.CORS"></a>1.CORS</h4><p>只要服务器支持就可以跨域通信<br>CORS分为两类请求  </p>
+<ul>
+<li>简单请求  </li>
+<li>非简单请求<br>** cors请求默认不包含COOKIE和HTTP认证信息，若需要需要满足以下条件  </li>
+<li>Access-Control-Allow-Credentials：true  </li>
+<li>withCredentials = true  </li>
+<li>Access-Control-Allow-Origin不设信号，指定明确的请求网页的域名</li>
+</ul>
+<h5 id="简单请求"><a href="#简单请求" class="headerlink" title="简单请求"></a>简单请求</h5><ul>
+<li>请求方法是HEAD,GET,POST三者之一  </li>
+<li>请求头不操作以下字段  <ul>
+<li>Accept  </li>
+<li>Accept-Language  </li>
+<li>Content-Language  </li>
+<li>Last-Event-Id</li>
+<li>Content-Type： application/x-www/form/urlencoded、multipart/form-data、text/plain</li>
+</ul>
+</li>
+</ul>
+<p>** 浏览器直接发出CORS请求，即在头信息中增加Origin字段，表示请求来源于哪个域<br>** 服务器根据这个值决定是否同意请求<br>** 若同意，则返回的响应会多出以下响应头信息<br>Access-Control-Allow-Origin: <a href="http://juejin.com/">http://juejin.com</a> // 和 Orign 一致  这个字段是必须的<br>Access-Control-Allow-Credentials: true // 表示是否允许发送 Cookie  这个字段是可选的<br>Access-Control-Expose-Headers: FooBar // 指定返回其他字段的值   这个字段是可选的<br>Content-Type: text/html; charset=utf-8 // 表示文档类型    </p>
+<hr>
+<p>在简单请求中服务器至少需要设置Access-Control-Allow-Origin  </p>
+<h5 id="非简单请求"><a href="#非简单请求" class="headerlink" title="非简单请求"></a>非简单请求</h5><p>PUT和DELETE 或者Content-type为applicaton/json<br><strong>正式请求前会发一次OPTIONS类型的查询请求</strong><br> 询问服务器是否支持网页所在域名的请求<br> 可以使用哪些头信息字段<br> 只有收到肯定的答复，才会发起正式XMLHttpRequset请求  </p>
+<p>**预检请求的方法是OPTIONS<br>** 他的头信息中有几个字段  </p>
+<ul>
+<li>origin：请求来自哪个域  </li>
+<li>Aceess-Control-Request-Method：Cors请求会用到哪些HTTO方法  </li>
+<li>Access-Control+Request-Headers：指定CORS请求会额外发送的“头字段信息”，用逗号给开</li>
+</ul>
+<p>OPTIONs请求次数过多会损耗性能，减少OPTIONS请求，可以让服务器在请求返回头部添加：<br>Access-Control-Max-Age：Number    //表示预检请求的结果可以缓存多久，这个范围时间内不需要预检  </p>
+<h4 id="2-Nginx代理跨域"><a href="#2-Nginx代理跨域" class="headerlink" title="2.Nginx代理跨域"></a>2.Nginx代理跨域</h4><p>配置一个代理服务器向服务器发送请求  再将数据返回客户端<br>server {<br>    listen 81; server_name <a href="http://www.domain1.com/">www.domain1.com</a>;<br>    location / {<br>        proxy_pass <a href="http://xxxx1:8080/">http://xxxx1:8080</a>; // 反向代理<br>        proxy_cookie_domain <a href="http://www.xxxx1.com/">www.xxxx1.com</a> <a href="http://www.xxxx2.com/">www.xxxx2.com</a>; // 修改cookie里域名<br>        index index.html index.htm;<br>        // 当用webpack-dev-server等中间件代理接口访问nignx时，此时无浏览器参与，故没有同源限制，下面的跨域配置可不启用<br>        add_header Access-Control-Allow-Origin <a href="http://www.xxxx2.com/">http://www.xxxx2.com</a>; // 当前端只跨域不带cookie时，可为*<br>        add_header Access-Control-Allow-Credentials true;<br>    }<br>}  </p>
+<p>3.Node中间件代理跨域<br>在 Vue.config.js中配置<br>module.export = {<br>    ...<br>    devServer: {<br>        proxy: {<br>            [ process.env.VUE_APP_BASE_API ]: {<br>                target: &#39;<a href="http://xxxx/&#39;,//%E4%BB%A3%E7%90%86%E8%B7%A8%E5%9F%9F%E7%9B%AE%E6%A0%87%E6%8E%A5%E5%8F%A3">http://xxxx\&#39;,//代理跨域目标接口</a><br>                ws: true,<br>                changeOrigin: true,<br>                pathRewrite: {<br>                    [ &#39;^&#39; + process.env.VUE_APP_BASE_API ] : &#39;&#39;<br>                }<br>            }<br>        }<br>    }<br>}</p>
+<p>Node+express<br>const express = require(&#39;express&#39;)<br>const proxy = require(&#39;http-proxy-middleware&#39;)<br>const app = express()<br>app.use(&#39;/&#39;, proxy({<br>    // 代理跨域目标接口<br>    target: &#39;<a href="http://xxxx:8080/&#39;">http://xxxx:8080\&#39;</a>,<br>    changeOrigin: true,<br>    // 修改响应头信息，实现跨域并允许带cookie<br>    onProxyRes: function(proxyRes, req, res) {<br>        res.header(&#39;Access-Control-Allow-Origin&#39;, &#39;<a href="http://xxxx/&#39;">http://xxxx\&#39;</a>)<br>        res.header(&#39;Access-Control-Allow-Credentials&#39;, &#39;true&#39;)<br>    },<br>    // 修改响应信息中的cookie域名<br>    cookieDomainRewrite: &#39;<a href="http://www.domain1.com/&#39;">www.domain1.com\&#39;</a> // 可以为false，表示不修改<br>}));<br>app.listen(3000);   </p>
+<hr>
+<h4 id="WebSocket"><a href="#WebSocket" class="headerlink" title="WebSocket"></a>WebSocket</h4><p>WebSocket是HTML5中的一种通信协议  </p>
+<ul>
+<li>ws://非加密  </li>
+<li>wss://加密<br>不实行同源政策，服务器支持就行<br>WebSocket请求头中有Origin字段，表示请求来自哪个域，服务器根据这个字段判断是否允许本次通信<br>在白名单即可同学呢</li>
+</ul>
+<h4 id="5-postMessage"><a href="#5-postMessage" class="headerlink" title="5.postMessage"></a>5.postMessage</h4><p>页面和新打开的窗口间数据传递<br>多窗口之间数据传递<br>页面与嵌套的 iframe 之间数据传递<br>上面三个场景之间的跨域传递<br>postMessage 接受两个参数，用法如下：</p>
+<p>参数一：发送的数据<br>参数二：你要发送给谁就写谁的地址(协议 + 域名 +端口)，也可以设置为*，表示任意窗口，为/表示与当前窗口同源的窗口  </p>
+<ol start="6">
+<li>JSONP<br>原理就是通过添加一个<script>标签，向服务器请求JSON数据，这样不受同源政策限制。服务器收到请求后，将数据放在一个callback回调函数中传回来。比如axios。</li>
+</ol>
+<p>不过只支持GET请求且不安全，可能遇到XSS攻击，不过它的好处是可以向老浏览器或不支持CORS的网站请求数据  </p>
+<h3 id="跨域时cookie和处理"><a href="#跨域时cookie和处理" class="headerlink" title="跨域时cookie和处理"></a>跨域时cookie和处理</h3><p>指对第三方使用Cookie设置，在cookie中添加SameSite属性  </p>
+<blockquote>
+<p>Set-Cookie: widget_session=123456; SameSite=None; Secure</p>
+</blockquote>
+<ul>
+<li>strict  严格模式，完全禁止使用Cookie</li>
+<li>lax  宽松模式，允许部分情况使用Cookie，跨域的都行，a标签跳转，link标签，GET提交的表单</li>
+<li>none  何情况下都会发送Cookie，但必须同时设置Secure属性，意思是需要安全上下文，Cookie 只能通过https发送，否则无效</li>
+</ul>
+<h2 id="自定义指令"><a href="#自定义指令" class="headerlink" title="自定义指令"></a>自定义指令</h2><h3 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h3><p>ｖｕｅ中提供了一套为数据驱动视图更方便的操作，这些奥做被称为指令系统　　</p>
+<h3 id="自定义指令-1"><a href="#自定义指令-1" class="headerlink" title="自定义指令"></a>自定义指令</h3><p>注册一个全局指令和局部指令<br>** 五安居注册通过Vue.directive  </p>
+<blockquote>
+<p>Vue.directive第一个参数是指令的名字（不需要写上v-前缀），第二个参数可以是对象数据，也可以是一个指令函数<br>全局<br>Vue.directive('focus',{<br>inserted:function(el)  { // 钩子inserted 当绑定的元素被插入DOM中  </p>
+</blockquote>
+<p>  el.focus()}<br>})</p>
+<p>** 局部<br>directive：{<br>focus：{<br>  // 指令的定义<br>    inserted: function (el) {<br>      el.focus() // 页面加载完成之后自动让输入框获取到焦点的小功能<br>}}  </p>
+<p>**使用<br><input v-focus />  </p>
+<h4 id="自定义指令的钩子函数-，类似于组件"><a href="#自定义指令的钩子函数-，类似于组件" class="headerlink" title="自定义指令的钩子函数  ，类似于组件"></a>自定义指令的钩子函数  ，类似于组件</h4><ul>
+<li><p>bing:  只调用一次，指令第一次绑定到元素时调用。在这里可以进行一次性的初始化设置</p>
+</li>
+<li><p>inserted:  被绑定元素插入父节点时调用 (仅保证父节点存在，但不一定已被插入文档中)</p>
+</li>
+<li><p>update:  所在组件的 VNode 更新时调用，但是可能发生在其子 VNode 更新之前。指令的值可能发生了改变，也可能没有。但是你可以通过比较更新前后的值来忽略不必要的模板更新  </p>
+</li>
+<li><p>componenUpdated:  指令所在组件的 VNode 及其子 VNode 全部更新后调用</p>
+</li>
+<li><p>ubind: 只调用一次，指令与元素解绑时调用</p>
+<h4 id="钩子中参数"><a href="#钩子中参数" class="headerlink" title="钩子中参数"></a>钩子中参数</h4></li>
+<li><p>el:绑定的ｄｏｍ，可直接操作</p>
+</li>
+<li><p>binding：一个对象</p>
+<blockquote>
+<ul>
+<li>name  指令名</li>
+</ul>
+</blockquote>
+<ul>
+<li>value  指令的绑定值，如　　 v-text="lxy",lxy就是value  </li>
+<li>oldValue  指令绑定的前一个值，仅在componeUpdated中可用</li>
+<li>expression  字符串形式的指令表达式v-my-directive="1 + 1"</li>
+<li>arg   传给指令的参数 ，v-my-directive:foo 中，参数为 "foo</li>
+<li>modifiers  个包含修饰符的对象。例如：v-my-directive.foo.bar 中，修饰符对象为 { foo: true, bar: true }</li>
+</ul>
+</li>
+<li><p>vnode:  Vue 编译生成的虚拟节点</p>
+</li>
+<li><p>oldvnode  上一个虚拟节点，仅在 update 和 componentUpdated 钩子中可用<br>**除了ｅｌ其他参数都是只读的，不可修改，通过dateset  在钩子间共享数据</p>
+</li>
+</ul>
+<p>　　</p>
+<h3 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h3><ul>
+<li>防抖</li>
+<li>图片懒加载 </li>
+<li>一键copy</li>
+</ul>
+<h4 id="防抖-v-debounce"><a href="#防抖-v-debounce" class="headerlink" title="防抖　v-debounce"></a>防抖　v-debounce</h4><blockquote>
+<p> Vue.directive('debounce',{<br>bind:(el,binding) => {<br> let debounceTime = binding.value; //绑定的参数，防抖时间<br>if(!debounceTime) {  //如果用户不设置防抖时间<br> debounceTime = 2000<br>}<br>let cbFun<br>el.addEventListener('clcik',event=>{<br>if(!cbFun) {<br>cbFun = setTimeout(()=>{<br>cbFun= null;<br>},debounceTime);<br>} else {<br>event&&event.stopImmidatePropagation()<br>}<br>},true) //false默认为冒泡，true为捕捉<br>  }<br>})</p>
+</blockquote>
+<p><button @click="sayHello" v-debounce>提交</button>  </p>
+<h4 id="懒加载v-lazy"><a href="#懒加载v-lazy" class="headerlink" title="懒加载v-lazy"></a>懒加载v-lazy</h4><p>const LazyLoad = {<br>    // install方法<br>    install(Vue,options){<br>          // 代替图片的loading图<br>        let defaultSrc = options.default;<br>        Vue.directive('lazy',{<br>            bind(el,binding){<br>                LazyLoad.init(el,binding.value,defaultSrc);<br>            },<br>            inserted(el){<br>                // 兼容处理<br>                if('IntersectionObserver' in window){<br>                    LazyLoad.observe(el);<br>                }else{<br>                    LazyLoad.listenerScroll(el);<br>                }</p>
+<pre><code>        &#125;,
+    &#125;)
+&#125;,
+// 初始化
+init(el,val,def)&#123;
+    // data-src 储存真实src
+    el.setAttribute(&#39;data-src&#39;,val);
+    // 设置src为loading图
+    el.setAttribute(&#39;src&#39;,def);
+&#125;,
+// 利用IntersectionObserver监听el
+observe(el)&#123;
+    let io = new IntersectionObserver(entries =&gt; &#123;
+        let realSrc = el.dataset.src;
+        if(entries[0].isIntersecting)&#123;
+            if(realSrc)&#123;
+                el.src = realSrc;
+                el.removeAttribute(&#39;data-src&#39;);
+            &#125;
+        &#125;
+    &#125;);
+    io.observe(el);
+&#125;,
+// 监听scroll事件
+listenerScroll(el)&#123;
+    let handler = LazyLoad.throttle(LazyLoad.load,300);
+    LazyLoad.load(el);
+    window.addEventListener(&#39;scroll&#39;,() =&gt; &#123;
+        handler(el);
+    &#125;);
+&#125;,
+// 加载真实图片
+load(el)&#123;
+    let windowHeight = document.documentElement.clientHeight
+    let elTop = el.getBoundingClientRect().top;
+    let elBtm = el.getBoundingClientRect().bottom;
+    let realSrc = el.dataset.src;
+    if(elTop - windowHeight&lt;0&amp;&amp;elBtm &gt; 0)&#123;
+        if(realSrc)&#123;
+            el.src = realSrc;
+            el.removeAttribute(&#39;data-src&#39;);
+        &#125;
+    &#125;
+&#125;,
+// 节流
+throttle(fn,delay)&#123;
+    let timer; 
+    let prevTime;
+    return function(...args)&#123;
+        let currTime = Date.now();
+        let context = this;
+        if(!prevTime) prevTime = currTime;
+        clearTimeout(timer);
+        
+        if(currTime - prevTime &gt; delay)&#123;
+            prevTime = currTime;
+            fn.apply(context,args);
+            clearTimeout(timer);
+            return;
+        &#125;
+
+        timer = setTimeout(function()&#123;
+            prevTime = Date.now();
+            timer = null;
+            fn.apply(context,args);
+        &#125;,delay);
+    &#125;
+&#125;
+</code></pre>
+<p>}<br>export default LazyLoad;</p>
+<h4 id="v-copy一键复制"><a href="#v-copy一键复制" class="headerlink" title="v-copy一键复制"></a>v-copy一键复制</h4><p>import { Message } from 'ant-design-vue';</p>
+<p>const vCopy = { //<br>  /*<br>    bind 钩子函数，第一次绑定时调用，可以在这里做初始化设置<br>    el: 作用的 dom 对象<br>    value: 传给指令的值，也就是我们要 copy 的值<br>  */<br>  bind(el, { value }) {<br>    el.$value = value; // 用一个全局属性来存传进来的值，因为这个值在别的钩子函数里还会用到<br>    el.handler = () => {<br>      if (!el.$value) {<br>      // 值为空的时候，给出提示，我这里的提示是用的 ant-design-vue 的提示，你们随意<br>        Message.warning('无复制内容');<br>        return;<br>      }<br>      // 动态创建 textarea 标签<br>      const textarea = document.createElement('textarea');<br>      // 将该 textarea 设为 readonly 防止 iOS 下自动唤起键盘，同时将 textarea 移出可视区域<br>      textarea.readOnly = 'readonly';<br>      textarea.style.position = 'absolute';<br>      textarea.style.left = '-9999px';<br>      // 将要 copy 的值赋给 textarea 标签的 value 属性<br>      textarea.value = el.$value;<br>      // 将 textarea 插入到 body 中<br>      document.body.appendChild(textarea);<br>      // 选中值并复制<br>      textarea.select();<br>      // textarea.setSelectionRange(0, textarea.value.length);<br>      const result = document.execCommand('Copy');<br>      if (result) {<br>        Message.success('复制成功');<br>      }<br>      document.body.removeChild(textarea);<br>    };<br>    // 绑定点击事件，就是所谓的一键 copy 啦<br>    el.addEventListener('click', el.handler);<br>  },<br>  // 当传进来的值更新的时候触发<br>  componentUpdated(el, { value }) {<br>    el.$value = value;<br>  },<br>  // 指令与元素解绑的时候，移除事件绑定<br>  unbind(el) {<br>    el.removeEventListener('click', el.handler);<br>  },<br>};</p>
+<p>export default vCopy;<br>**除此之外还有　</p>
+<ul>
+<li>拖拽指令  </li>
+<li>页面水印  </li>
+<li>权限校验</li>
+</ul>
+<h2 id="实现浏览器内多个标签页之间通信"><a href="#实现浏览器内多个标签页之间通信" class="headerlink" title="实现浏览器内多个标签页之间通信"></a>实现浏览器内多个标签页之间通信</h2><hr>
+<h3 id="localStorage-session在每个标签页之间是单独的，会话级存储空间"><a href="#localStorage-session在每个标签页之间是单独的，会话级存储空间" class="headerlink" title="localStorage (session在每个标签页之间是单独的，会话级存储空间)"></a>localStorage (session在每个标签页之间是单独的，会话级存储空间)</h3><h3 id="WebSocket-全双工"><a href="#WebSocket-全双工" class="headerlink" title="WebSocket 全双工"></a>WebSocket 全双工</h3><h3 id="postMessage"><a href="#postMessage" class="headerlink" title="postMessage"></a>postMessage</h3><p>两个需要交互的tap页面有依赖关系  </p>
+<ul>
+<li>A页面需要通过js的window.open打开B页面  </li>
+<li>B页面需要通过iframe嵌入到A页面<br>**　B需要对A页面进行通信，只需要在B页面侦听message事件，获取事件中的source对象<br>** 该对象为A页面window对象的引用</li>
+</ul>
+<hr>
+<p>postMessage第一个参数是消息实体，它是一个结构化对象 ，他传的值可以通过JSON.stringfy和JSON.parse还原对象<br>第二个参数为消息发送的范围  </p>
+<ul>
+<li>“/”代表发送给同源页面  </li>
+<li>“*”代表全部页面</li>
+</ul>
+<h2 id="es5的类和class有什么区别"><a href="#es5的类和class有什么区别" class="headerlink" title="es5的类和class有什么区别"></a>es5的类和class有什么区别</h2><hr>
+<p>在es5中通过构造函数方式和原型方式来定义一个类<br>es6中通过class来定义  </p>
+<ul>
+<li>class必须new调用，不能直接执行</li>
+<li>class不存在变量提升  </li>
+<li>class类无法遍历他原型链上的属性和方法  </li>
+<li>new.target  <blockquote>
+<p>返回new命令作用于哪个构造函数，如果不是new调用或者Reflect.constructor调用返回undefined<br>用于避免类的误调用  </p>
+</blockquote>
+</li>
+<li>class有静态static方法，如果静态方法上有this（指的是类），static声明的静态属性和方法都可以被子类继承</li>
+</ul>
+<h2 id="jquery的链式调用如何实现"><a href="#jquery的链式调用如何实现" class="headerlink" title="jquery的链式调用如何实现"></a>jquery的链式调用如何实现</h2><hr>
+<blockquote>
+<p>比如：$('div').eq(0).css("width","200px").show()<br>链式调用的核心在于调用完的方法将自身实例返回  </p>
+</blockquote>
+<h3 id="实现一个简单的链式调用"><a href="#实现一个简单的链式调用" class="headerlink" title="实现一个简单的链式调用"></a>实现一个简单的链式调用</h3><p>class listFunc {<br> // 初始化<br>  constructor(val) {<br>    this.arr = [...val];<br>    return this;<br>  }<br>  get() {<br>    console.log(this.arr);<br>    return this;<br>  }<br>  push(val) {<br>    console.log(this.arr);<br>    this.arr.push(val);<br>    return this;<br>  }<br>  pop() {<br>    console.log(this.arr);<br>    this.arr.pop();<br>    return this;<br>  }<br>}<br>const list = new listFunc([1, 2, 3]);<br>list.get().pop().push('ldq')  </p>
+<h2 id="背包问题"><a href="#背包问题" class="headerlink" title="背包问题"></a>背包问题</h2><blockquote>
+<p>已知：N件物品和V容量的背包，每件物品仅一件<br>  第i件体积是V[i]，价值是W[i]<br> 求解，将哪些物品装入背包，总体积不超过背包容量，总价值最大  </p>
+</blockquote>
+<p>var selected =[],ws = [2,2,6,5,4].vs=[6,3,5,4,6]<br>var b = knapsack(5,10,ws,vs,selected)<br>console.log(b)<br>selected.forEach((el,i)=>{<br>  if(el)  {<br>   console.log("选择了物品"+i+"重量为"+ws[i]+"价值为"+vs[i])<br> }<br>})</p>
+<p>function knapsack(n, W, weights, values, selected) {<br>    if (n == 0 || W == 0) {<br>        //当物品数量为0，或者背包容量为0时，最优解为0<br>        return 0;<br>    } else {<br>        //从当前所剩物品的最后一个物品开始向前，逐个判断是否要添加到背包中<br>        for (var i = n - 1; i >= 0; i--) {<br>            //如果当前要判断的物品重量大于背包当前所剩的容量，那么就不选择这个物品<br>            //在这种情况的最优解为f(n-1,C)<br>            if (weights[i] > W) {<br>                return knapsack(n - 1, W, weights, values, selected);<br>            } else {<br>                var a = knapsack(n - 1, W, weights, values, selected); //不选择物品i的情况下的最优解<br>                var b = values[i] + knapsack(n - 1, W - weights[i], weights, values, selected); //选择物品i的情况下的最优解<br>                //返回选择物品i和不选择物品i中最优解大的一个<br>                if (a > b) {<br>                    selected[i] = 0; //这种情况下表示物品i未被选取<br>                    return a;<br>                } else {<br>                    selected[i] = 1; //物品i被选取<br>                    return b;<br>                }<br>            }<br>        }<br>    }<br>}          </p>
+<h2 id="全排列"><a href="#全排列" class="headerlink" title="全排列"></a>全排列</h2><blockquote>
+<p>输入numes [1,2,3]<br>   输出[[1,2,3],[1,3,2],[2,1,3],[2,3,1],...]<br> ** 运用树结构来实现，深度优先遍历使用栈，广度优先遍历使用队列    </p>
+</blockquote>
+<h2 id="几个页面生命周期事件的理解"><a href="#几个页面生命周期事件的理解" class="headerlink" title="几个页面生命周期事件的理解"></a>几个页面生命周期事件的理解</h2><ul>
+<li><p>DOMContentLoaded   </p>
+<blockquote>
+<p>浏览器完全加载了HTML并构建了DOM树，但<img>和样式表之类“外部”资源尚未加载完成<br>DOM尊卑就绪时，被触发<br><scirpt>会阻塞DOMcontentLoaded。等待他们执行结束  </p>
+</blockquote>
+</li>
+<li><p>load  </p>
+<blockquote>
+<p>外部资源和HTML都加载完毕<br> window.onload：样式，图片其他资源被加载完成触发</p>
+</blockquote>
+</li>
+<li><p>beforeunload  </p>
+</li>
+<li><p>unload  </p>
+<blockquote>
+<p>当用户正在离开界面时</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="生成1-10000的数组"><a href="#生成1-10000的数组" class="headerlink" title="生成1-10000的数组"></a>生成1-10000的数组</h2><p>Array.from(new Array(10001),key()).slice(1)</p>
+<p>Array.from({lenght:10000},(node,i)=>i+1)</p>
+<p>new Array(10001).forEach((item,i)=>{<br> item = i+1<br>})  </p>
+<h2 id="如何实现扫描二维码登录pc网站"><a href="#如何实现扫描二维码登录pc网站" class="headerlink" title="如何实现扫描二维码登录pc网站"></a>如何实现扫描二维码登录pc网站</h2><h3 id="二维码登录本质"><a href="#二维码登录本质" class="headerlink" title="二维码登录本质"></a>二维码登录本质</h3><p>一种认证方式  </p>
+<ul>
+<li>告诉系统我是谁  </li>
+<li>向系统正证明我是谁</li>
+</ul>
+<h3 id="具体流程-、"><a href="#具体流程-、" class="headerlink" title="具体流程  、"></a>具体流程  、</h3><h4 id="生成二维码"><a href="#生成二维码" class="headerlink" title="生成二维码"></a>生成二维码</h4><ul>
+<li>pc向服务器发送请求，告诉服务端要生成用户登录的二维码，把pc端设备信息也传给服务器  </li>
+<li>服务端生成二维码ID，将ID于pc端设备信息进行绑定  </li>
+<li>把ID返回给PC  </li>
+<li>PC 收到二维码ID后，生成二维码，包含ID  </li>
+<li>为了知道二维码的状态，客户端在展现二维码后，pc端不断的轮询服务端<br> 每隔1秒就轮询一次，请求服务器好书当前二维码的状态和相关信息</li>
+</ul>
+<h4 id="扫描二维码"><a href="#扫描二维码" class="headerlink" title="扫描二维码"></a>扫描二维码</h4><ul>
+<li>用户用手机去扫描PC端的二维码，通过二维码内容取到其中的二维码ID  </li>
+<li>再调用服务端API将移动端的身份信息与二维码ID一起发送给服务端  </li>
+<li>服务端接收到后，它可以将身份信息与二维码ID进行绑定，生成临时token。然后返回给手机端  </li>
+<li>因为PC端一直在轮询二维码状态，所以这时候二维码状态发生了改变，它就可以在界面上把二维码状态更新为已扫描</li>
+</ul>
+<h4 id="状态确认"><a href="#状态确认" class="headerlink" title="状态确认"></a>状态确认</h4><ul>
+<li>手机端在接收到临时token后会弹出确认登录界面，用户点击确认时，手机端携带临时token用来调用服务端的接口，告诉服务端，我已经确认  </li>
+<li>服务端收到确认后，根据二维码ID绑定的设备信息与账号信息，生成用户PC端登录的token  </li>
+<li>这时候PC端的轮询接口，它就可以得知二维码的状态已经变成了"已确认"。并且从服务端可以获取到用户登录的token  </li>
+<li>到这里，登录就成功了，后端PC端就可以用token去访问服务端的资源了</li>
+</ul>
+<h2 id="undefined和ReferenceError：xxx-is-not-defined有什么区别"><a href="#undefined和ReferenceError：xxx-is-not-defined有什么区别" class="headerlink" title="undefined和ReferenceError：xxx is not defined有什么区别"></a>undefined和ReferenceError：xxx is not defined有什么区别</h2><ul>
+<li>前者当一个变量声明后没有赋值，他就是undefined  </li>
+<li>后者是尝试引用一个未定义的变量，函数时候，抛出ReferenceError</li>
+</ul>
+<h2 id="Math-ceil-、Math-round-、Math-floor-三者的区别是什么？"><a href="#Math-ceil-、Math-round-、Math-floor-三者的区别是什么？" class="headerlink" title="Math.ceil()、Math.round()、Math.floor()三者的区别是什么？"></a>Math.ceil()、Math.round()、Math.floor()三者的区别是什么？</h2><ul>
+<li>Math.ceil向上取整  </li>
+<li>Math.floor向下取整  </li>
+<li>Math.round() 四舍五入</li>
+</ul>
+]]></content>
+      <categories>
+        <category>面试题</category>
+      </categories>
+      <tags>
+        <tag>js面试题</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>js面试题</title>
+    <url>/2022/05/21/%E9%9D%A2%E8%AF%95%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="第一题-Object与Map的区别"><a href="#第一题-Object与Map的区别" class="headerlink" title="第一题:Object与Map的区别"></a>第一题:Object与Map的区别</h2><blockquote>
+<p>Map是Object的一个子类<br>    可以有序保存任意类型的数据<br>    使用键值存储，其中键可以存储任意类型const m &#x3D; new Map()可以得到一个map实例  </p>
+</blockquote>
+<h3 id="访问"><a href="#访问" class="headerlink" title="访问"></a>访问</h3><pre><code>map通过get(key)方法  
+object可以通过object.a或者object[a]，a只能是字符串，数字或者symbol 
+</code></pre>
+<h3 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h3><p>   map: map.delete 删除一个不存在的返回false<br>   object：即使对象不存在该属性 也会返回true，<br>                delete obj.a&#x2F;Reflect.deleteProperty(target,prop)</p>
+<h3 id="大小"><a href="#大小" class="headerlink" title="大小"></a>大小</h3><p>   map:通过size<br>   object:通过Object.keys转换为数组，再通过length获得<br>              也可以通过Reflect.ownKeys(obj)获得keys的集合 </p>
+<h3 id="迭代"><a href="#迭代" class="headerlink" title="迭代"></a>迭代</h3><p>   map 有迭代器：for-of&#x2F;forEach直接迭代  ，顺序确定<br>   object： 没有实现迭代器，需要自行实现，不实现只能for-in循环迭代，顺序不确定</p>
+<h3 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h3><blockquote>
+<p>存储key-value只存储简单类型key直接用对象<br>   若必须通过JSON转换，只能使用object<br>  map阅读性更好，所有操作都有api  </p>
+</blockquote>
+<hr>
+<h2 id="cookie的有效时间设置为0会怎么样"><a href="#cookie的有效时间设置为0会怎么样" class="headerlink" title="cookie的有效时间设置为0会怎么样"></a>cookie的有效时间设置为0会怎么样</h2><blockquote>
+<p>表示跟随系统默认，销毁与session销毁时间相同  都在浏览器关闭后特定时间内删除<br>  写程序的时候不设置cookie有效时间，则cookie有效时间等效于会话时间  </p>
+</blockquote>
+<h2 id="postMessage有哪些是哦那个场景"><a href="#postMessage有哪些是哦那个场景" class="headerlink" title="postMessage有哪些是哦那个场景"></a>postMessage有哪些是哦那个场景</h2><hr>
+<p>window.postMessage方法可以安全地实现跨源通信</p>
+<h3 id="用途"><a href="#用途" class="headerlink" title="用途"></a>用途</h3><p>用于两个不同的Ifrom之间的通讯  </p>
+<h3 id="语法-otherWindow-postMessage-message-targetOrigin-transfer"><a href="#语法-otherWindow-postMessage-message-targetOrigin-transfer" class="headerlink" title="语法  otherWindow.postMessage(message,targetOrigin,[transfer]);"></a>语法  otherWindow.postMessage(message,targetOrigin,[transfer]);</h3><blockquote>
+<p>参数说明<br>  message,从其他window中传递的对象<br>  origin: 由协议+域名+端口号组成<br> source：队发送消息 的“窗口对象”的引用，可以使用此来再具有不同origin的连个窗口之间建立通信  </p>
+</blockquote>
+<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>** 子框架传递信息</p>
+<blockquote>
+<p>function goParentIfrompostMessage(msg,parentUrl) {<br>    var parentUrl &#x3D; window .parent.location.origin;<br>   window.onload&#x3D;function() {<br>    window.parent.postMessage(msg,parentUrl);<br>   }<br>  }<br>goParentIfrompostMessage(‘msgStr’,parentIfromUrl)</p>
+</blockquote>
+<p>** 父框架接受端  </p>
+<blockquote>
+<p>window.addEventListener(‘message’,function(e) {<br> console.log(e.origin,e.data);  </p>
+</blockquote>
+<p> console.log(e.data);<br>})</p>
+<h3 id="安全问题"><a href="#安全问题" class="headerlink" title="安全问题"></a>安全问题</h3><p>** 如果不希望从其他网站接收message，不为message事件添加任何事件监听器<br>    如果希望从其他网站接收message，始终使用origin呵呵source属性验证发件人身份<br>   验证身份后，应该**始终验证收到信息的语法，否则可能他的漏洞就进到了你的网站    </p>
+<blockquote>
+<p>在监听别的窗体发来的postMessage后，通过event.origin认证身份后<br>   event.source代表接收窗体，event.data就是另一个窗体大宋过来的    </p>
+</blockquote>
+<h2 id="async和await如何进行错误处理"><a href="#async和await如何进行错误处理" class="headerlink" title="async和await如何进行错误处理"></a>async和await如何进行错误处理</h2><hr>
+<ul>
+<li>1.主要受用try&#x2F;catch  <blockquote>
+<p>const fetchData &#x3D; () &#x3D;&gt; {<br>  return new Promies(resolve,reject) &#x3D;&gt; {<br>setTimeout(()&#x3D;&gt;{<br> resolve(‘fetch data sucess’)<br> },1000)<br> } )<br>}<br>(  async () &#x3D;&gt;｛<br> try{<br>  const data &#x3D; await fetchDate()<br>  console.log(data)<br>   } catch(err) {<br>  console.log(err)<br>}<br>  ｝<br>  )()  </p>
+</blockquote>
+</li>
+<li><ol start="2">
+<li>如果上面这种情况有多个呢，写多个TRY&#x2F;CATCH？ 大屚特露<br>  asyc&#x2F;await本质是promies的语法糖，使用then  <blockquote>
+<p> const data &#x3D; await fetch().then(data&#x3D;&gt;data).catch(err&#x3D;&gt;err)<br>  **不完善，resolve正确时data就是我们要的，若reject了，data就是错误的<br>  const [err,data] &#x3D; await fetch().then(data&#x3D;&gt;[null,data]).catch(err&#x3D;&gt;[err,null])<br>  **太长了 ，，怎么办？  (抽取公共方法)<br>  const [err,data] &#x3D; await awaitWrap(fetchData())<br>  const awaitWrap &#x3D; (promie) &#x3D;&gt; {<br>retrun promise<br>.then(data&#x3D;&gt;[null,data])<br>.catch(err&#x3D;&gt;[err,null])<br>  }<br> **使用typescript<br>  function awaitWrap&lt;T, U &#x3D; any&gt;(promise: Promise<T>): Promise&lt;[U | null, T | null]&gt; {<br>  return promise<br>   .then&lt;[null, T]&gt;((data: T) &#x3D;&gt; [null, data])<br>   .catch&lt;[U, null]&gt;(err &#x3D;&gt; [err, null])<br>}</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 id="第五题-什么是底代码"><a href="#第五题-什么是底代码" class="headerlink" title="第五题.什么是底代码"></a>第五题.什么是底代码</h2><p>** 拖拽，表单配置。快速定制一个完整应用，不需要写太多代码（aPaaS应用平台及服务)  </p>
+<h3 id="低代码系统啥样子"><a href="#低代码系统啥样子" class="headerlink" title="低代码系统啥样子"></a>低代码系统啥样子</h3><blockquote>
+<p>有以下功能模块  </p>
+</blockquote>
+<ul>
+<li>页面搭建  </li>
+<li>数据逻辑  </li>
+<li>数据模型  </li>
+<li>在线部署  </li>
+<li>管理系统<br>** 根据平台形态的不同分为<br>+ 表单&#x2F;数据模型驱动<br>+ 界面驱动</li>
+</ul>
+<h4 id="表单-x2F-数据模型驱动"><a href="#表单-x2F-数据模型驱动" class="headerlink" title="表单&#x2F;数据模型驱动"></a>表单&#x2F;数据模型驱动</h4><blockquote>
+<p>围绕数据结构来定义整个应用的形态和流程<br>  ** 表单驱动**指用户通过配置表单界面，元素大多是文本输入，下拉选择等组件，配置表单界面后生成数据模型<br>  并基于该表单做数据及流程管理<br>   <strong>数据模型</strong>比较复复杂，需要用户进行数据建模以及确定模型关系，与数据库搭建类似，然后基于<br>   该数据表单搭建上层的管理系统  </p>
+</blockquote>
+<h4 id="界面驱动"><a href="#界面驱动" class="headerlink" title="界面驱动"></a>界面驱动</h4><p>** 通过拖拽组件的方式搭建界面，并设置页面交互逻辑，跳转，按钮事件，获取数据等等<br>   eg：IVX<br>这种模式与端开发套路一致，只是将代码编辑改为画布拖拽<br>**为按钮设置点击事件调用接口，任然要设置入参，出参，回调  遵循编程思想  </p>
+<h4 id="个性化定制"><a href="#个性化定制" class="headerlink" title="个性化定制"></a>个性化定制</h4><ul>
+<li>在平台定制的规则下录入组件  </li>
+<li>生成源代码做二次开发</li>
+<li>反馈平台</li>
+</ul>
+<h4 id="低代码平台"><a href="#低代码平台" class="headerlink" title="低代码平台"></a>低代码平台</h4><p>宜搭，氚云，简道云，易鲸云</p>
+<p>减低门槛，降本增效  </p>
+<h2 id="const声明了数组，还能push元素么，为什么"><a href="#const声明了数组，还能push元素么，为什么" class="headerlink" title="const声明了数组，还能push元素么，为什么"></a>const声明了数组，还能push元素么，为什么</h2><p>const指定的引用对象不可指向其他对象，但是具体某个对象本身是可以变得  </p>
+<h2 id="区分对象和数组"><a href="#区分对象和数组" class="headerlink" title="区分对象和数组"></a>区分对象和数组</h2><ul>
+<li>Array.isArray([]) true</li>
+<li>[] instanceOf Array  true</li>
+<li>[].constructor    Array</li>
+<li>Object.prototype.toString.call([])  [object Array]</li>
+</ul>
+<h2 id="async-x2F-await实现原理"><a href="#async-x2F-await实现原理" class="headerlink" title="async&#x2F;await实现原理"></a>async&#x2F;await实现原理</h2><p>ES7被提出来，目前最好的回调解决方案  </p>
+<hr>
+<h3 id="1-generator"><a href="#1-generator" class="headerlink" title="1.generator"></a>1.generator</h3><p> 携程：多个线程相互协作，完成异步任务  </p>
+<blockquote>
+<p>第一步，携程A开始执行<br>    第二部，协程A执行到一般，暂停你，执行权到B<br>   第三步，协程B交还执行权<br>   第四步，协程A恢复执行<br>** 整个generator函数就是一个封装的异步函数  在需要暂停的地方使用yeild<br>function* gen(x) {<br>   console.log(‘start’)<br>  const  &#x3D; yield x*2<br>  return y<br>  }<br>  const g &#x3D;gen(1)<br>  g.next()<br>  g.next(4)  </p>
+</blockquote>
+<hr>
+<ul>
+<li>gen(不会立即执行，上来就暂停返回一个Iterator对象)  </li>
+<li>g.next()会打破暂停状态去执行知道遇到下一个yield或者return  </li>
+<li>每次遇到yield时，会{执行yield后面表达式}，并返回执行之后的值，再次进入暂停状态，此时done:false  </li>
+<li>next可以接收参数，作为上个阶段异步任务的返回结果，被函数体内变量x接收  </li>
+<li>遇到return时，done为true，执行接收  </li>
+<li>每次g.next()的返回值永远都是{value:…,done:…}  Iterator的循环过程中的一项一项  <h3 id="2-thunk"><a href="#2-thunk" class="headerlink" title="2.thunk"></a>2.thunk</h3>把带有回调函数的多参数函数转换为只接受回调函数的单参数版本</li>
+</ul>
+<p>var thunk &#x3D; function () {<br> return x+5<br>};</p>
+<p>function f(thunk) {<br> return thunk()*2;<br>}  将某个内部有表达式的函数作为参数放入另一个参数，在另一个参数内部调用    </p>
+<blockquote>
+<p>const fs &#x3D; require(‘fs’)<br>const thunkify &#x3D; (fn函数) &#x3D;&gt;(…rest若干参数) &#x3D;&gt;(callback一个回调函数) &#x3D;&gt; fn(…rest,callback)<br>**将一个函数拆成3部分，从函数本身，，，到函数的参数，，到函数的回调函数  ”return“<br>const thunck &#x3D; thunkify(fs.readFile)<br>const readFileThunk &#x3D; thunk(“&#x2F;目录&#x2F;文件名”,’utf8’)<br>readFileThunk((err,data)&#x3D;&gt;{<br>….<br>})</p>
+</blockquote>
+<p>thunk的真正作用是统一多参数函数的调用方式，在next调用时把控制权交给generator  </p>
+<h2 id="给一个dom同时绑定两个点击事件，一个捕获，一个冒泡，执行几次事件，先冒泡还是先捕获"><a href="#给一个dom同时绑定两个点击事件，一个捕获，一个冒泡，执行几次事件，先冒泡还是先捕获" class="headerlink" title="给一个dom同时绑定两个点击事件，一个捕获，一个冒泡，执行几次事件，先冒泡还是先捕获"></a>给一个dom同时绑定两个点击事件，一个捕获，一个冒泡，执行几次事件，先冒泡还是先捕获</h2><p>捕获从外到里，冒泡从里到外，通过参数boolean决定，false默认冒泡，true先捕获<br>绑定几次执行几次  </p>
+<h2 id="promise-catch后的then还会执行么"><a href="#promise-catch后的then还会执行么" class="headerlink" title="promise.catch后的then还会执行么"></a>promise.catch后的then还会执行么</h2><p>会继续执行<br>catch只处理rejected的情况 也会返回一个新promise<br>.catch(onRejected:回调)与then(undeifined,onRejected)一致<br>事实上catch从内部调用了then（undefined，onRejected）  </p>
+<p>pending—-resolved() —&gt;resolved<br>pending—-reject() —-&gt; rejected</p>
+<p>状态转换不可逆</p>
+<blockquote>
+<p>若catch回调中返回一个状态为rejected的promise那么.catch返回的promise也变成了rejected<br>    。。。。抛出异常，也是rejected<br>   其他情况返回的都是fulfilled</p>
+</blockquote>
+<h2 id="如何让构造函数不被误调用"><a href="#如何让构造函数不被误调用" class="headerlink" title="如何让构造函数不被误调用"></a>如何让构造函数不被误调用</h2><p>构造函数被当作普通函数使用不会报错  </p>
+<hr>
+<h3 id="instanceof-与-new绑定原理"><a href="#instanceof-与-new绑定原理" class="headerlink" title="instanceof   与  new绑定原理"></a>instanceof   与  new绑定原理</h3><p>可用于检测某个对象是不是另一个对象的实例<br>new Persion（） instanceof Person   true<br>如果是new 则this指向实例  ，this instanceof 构造函数 返回true<br>如果是普通调用，this指向全局window</p>
+<blockquote>
+<p>if(!(this instanceof Persion)) {<br>   throw new TypeError(‘Function constructor A cannot be invoked without “new’)<br>}</p>
+</blockquote>
+<h3 id="new-target"><a href="#new-target" class="headerlink" title="new.target"></a>new.target</h3><p>ES6提出<br>如果构造函数不是用过new 或者Reflect.constructior调用，new.target返回undefined  </p>
+<p>if(!(new.target))  {<br>throw new TypeError(“…………”)<br>}</p>
+<h3 id="ES6-class-–最佳方案"><a href="#ES6-class-–最佳方案" class="headerlink" title="ES6 class –最佳方案"></a>ES6 class –最佳方案</h3><p>用class来语义化面向对象编程，类的构造器必须用new 调用<br> constructor Person cannot be invoked without ‘new’  </p>
+<h2 id="变量提示，函数声明提升，函数声明表达式不提升"><a href="#变量提示，函数声明提升，函数声明表达式不提升" class="headerlink" title="变量提示，函数声明提升，函数声明表达式不提升"></a>变量提示，函数声明提升，函数声明表达式不提升</h2><p>foo();  </p>
+<p>var foo;  </p>
+<p>function foo(){  </p>
+<p>  console.log(1);  </p>
+<p>}<br>foo &#x3D; function(){  </p>
+<p>  console.log(2);  </p>
+<p>}   &#x2F;&#x2F; 1  </p>
+<h2 id="restful接口规范"><a href="#restful接口规范" class="headerlink" title="restful接口规范"></a>restful接口规范</h2><p>一种被广泛使用的API架构风格  </p>
+<hr>
+<p>** 在restAPI中，要面向资源进行建模，其中每一个节点是一个“简单资源”或“集合资源” </p>
+<ul>
+<li>1.一个集合包含相同类型的资源列表。</li>
+<li>2.资源具有状态以及0个或多个子资源,每个资源可以是一个简单资源<br>或一个集合资源</li>
+</ul>
+<p>**方法method<br>每个资源都会对应一组操作方法，用户通过API来完成对应的操作  </p>
+<blockquote>
+<p>常见的操作方法<br>  |操作类型|HTTP映射|举例|<br>  |****    |****    |*** |<br>  |获取集合资源|GET<collection URL>|curl-x GET <a href="https://foo.var.com/api/customers">https://foo.var.com/api/customers</a>  |<br>  |获取单个资源|GET <resource URL> |curl_x GET <a href="https://foo.bar/api/v1/customers/123|">https://foo.bar/api/v1/customers/123|</a><br>  |创建资源| POST <collection URL> |curl-X Post <a href="https://foo.bar.com/api/v1/customers|">https://foo.bar.com/api/v1/customers|</a><br>  |更新资源|PUT<resource URL> | curl-X PUT <a href="https://foo.bar.com/v1/cutomers/123|">https://foo.bar.com/v1/cutomers/123|</a><br>  |局部更新资源|PATCH <resource URL> |curl-X PATCH <a href="https://foo.bar.com/v1/cutomers/123|">https://foo.bar.com/v1/cutomers/123|</a><br>  |删除资源| DELETE <resource URL>|curl-X DELETE <a href="https://foo.bar.com/v1/customers/123|">https://foo.bar.com/v1/customers/123|</a></p>
+</blockquote>
+<p>**RESTful API设计规范  </p>
+<hr>
+<p>面向资源设计URL<br>面向使用者建模<br>语义应该面向使用者<br>** 反例：&#x2F;customers&#x2F;123<br>** 正例: &#x2F;customers_archives&#x2F;123  </p>
+<h3 id="资源与角色相关"><a href="#资源与角色相关" class="headerlink" title="资源与角色相关"></a>资源与角色相关</h3><p>不同的角色资源可以不同，不同的角色使用的资源可以是不一样的  </p>
+<h3 id="一类资源两个URL"><a href="#一类资源两个URL" class="headerlink" title="一类资源两个URL"></a>一类资源两个URL</h3><p>一个用于集合<br>另一个用于某个特定元素  </p>
+<h3 id="使用一致的复数名词"><a href="#使用一致的复数名词" class="headerlink" title="使用一致的复数名词"></a>使用一致的复数名词</h3><p>&#x2F;story 与 &#x2F;story&#x2F;1  &#x2F;&#x2F;×<br>&#x2F;stories 与 &#x2F;stories&#x2F;1 &#x2F;&#x2F;√  </p>
+<h3 id="复杂的查询逻辑使用查询字符串"><a href="#复杂的查询逻辑使用查询字符串" class="headerlink" title="复杂的查询逻辑使用查询字符串"></a>复杂的查询逻辑使用查询字符串</h3><h3 id="表达资源之间的关联"><a href="#表达资源之间的关联" class="headerlink" title="表达资源之间的关联"></a>表达资源之间的关联</h3><p>当需要对关联在资源1下的资源2进行操作时，使用<br>resources&#x2F;:resource_id&#x2F;sub_resources&#x2F;:sub_resource_id<br>&#x2F;customers&#x2F;123&#x2F;podcasts  &#x2F;&#x2F;获取某个客户的所有博客<br>&#x2F;customers&#x2F;123&#x2F;podcasts&#x2F;123  &#x2F;&#x2F;获取某个客户的某个博客  </p>
+<h3 id="使用Http-Mehod表示动作"><a href="#使用Http-Mehod表示动作" class="headerlink" title="使用Http Mehod表示动作"></a>使用Http Mehod表示动作</h3><p>URL中不应该包含动词，全部使用Mehod表示动作<br>反例：<br>GET &#x2F;getCusomters  </p>
+<p>GET &#x2F;getAllMaleCusomters  </p>
+<p>POST &#x2F;createCusomter  </p>
+<p>POST &#x2F;updateCustomer  </p>
+<p>POST &#x2F;customer&#x2F;create_for_management&#x2F;  </p>
+<p>  正例：<br> GET &#x2F;cutomers  获取客户列表<br> GET &#x2F;customers&#x2F;5 获取ID为5的客户<br> GET &#x2F;customers?gender&#x3D;male 获取男性客户<br> Post &#x2F;customers  创建新客户<br> PUT &#x2F;custmoers&#x2F;5 更新以存在的客户5  （全部字段）<br> PATCH &#x2F;customers&#x2F;5 更新客户5的（部分字段）<br> Delete &#x2F;scustomers&#x2F;5 删除客户5  </p>
+<h3 id="使用HATEOAS"><a href="#使用HATEOAS" class="headerlink" title="使用HATEOAS"></a>使用HATEOAS</h3><p>REST的高级形态，采用这样的API在响应中除了返回资源本身，还返回一组LINK<br>这组资源描述了对于该资源，客户端接下来可以做什么以及如何做  </p>
+<blockquote>
+<p>{</p>
+</blockquote>
+<pre><code>&quot;tracking_id&quot;: &quot;123456&quot;,
+&quot;status&quot;: &quot;WAIT_PAYMENT&quot;,
+&quot;items&quot;: [
+    &#123;
+        &quot;name&quot;: &quot;potato&quot;,
+        &quot;quantity&quot;: 1
+    &#125;
+],
+&quot;_links&quot;: &#123;
+    &quot;self&quot;: &#123;
+        &quot;href&quot;: &quot;http://localhost:57900/orders/123456&quot;
+    &#125;,
+    &quot;cancel&quot;: &#123;
+        &quot;href&quot;: &quot;http://localhost:57900/orders/123456&quot;
+    &#125;,
+    &quot;payment&quot;: &#123;
+        &quot;href&quot;: &quot;http://localhost:57900/orders/123456/payments&quot;
+    &#125;
+&#125;
+</code></pre>
+<p>}</p>
+<p>  前端不需要硬编码大多数后端的API url二十通过后端在响应中返回  </p>
+<h3 id="API格式约定"><a href="#API格式约定" class="headerlink" title="API格式约定"></a>API格式约定</h3><p>** <a href="https://foo.bar.com/api/+%E4%B8%9A%E5%8A%A1%E5%9F%9F+%E7%89%88%E6%9C%AC%E5%8F%B7+%E8%B5%84%E6%BA%90%E9%9B%86%E5%90%88+%E8%B5%84%E6%BA%90ID">https://foo.bar.com/api/+业务域+版本号+资源集合+资源ID</a><br>eg：<a href="https://foo.bar.com/api/mall/v1/customers/1">https://foo.bar.com/api/mall/v1/customers/1</a>    </p>
+<h3 id="Response-Body结构"><a href="#Response-Body结构" class="headerlink" title="Response Body结构"></a>Response Body结构</h3><p>{<br>“code”:0,     错误码  成功时0<br>“msg”:”success”,   错误信息  成功时success<br>“data”:{    &#x2F;&#x2F;数据内容，结构必须是object，不能为list，string<br>  “id”:1,<br>  “name”:”abc”<br> },<br> “extra”:{  #错误码非0时，data为空，使用extra字段返回错误时需要携带信息</p>
+<p>  }<br>}</p>
+<h3 id="版本号"><a href="#版本号" class="headerlink" title="版本号"></a>版本号</h3><ul>
+<li>当API的升级是兼容的时候，无需版本号 </li>
+<li>版本号使用有序数，不适用点号  V1.2  </li>
+<li>新版本上线必须保证旧版本API可用，旧版本不再请求才可下线</li>
+</ul>
+<h3 id="URL-path中的版本号"><a href="#URL-path中的版本号" class="headerlink" title="URL path中的版本号"></a>URL path中的版本号</h3><p>表示API的整体版本，当业务域API发生重大整体升级时使用  </p>
+<h3 id="HTTP-状态码"><a href="#HTTP-状态码" class="headerlink" title="HTTP 状态码"></a>HTTP 状态码</h3><p>表示响应的语义  </p>
+<blockquote>
+<ul>
+<li>200 NO err</li>
+</ul>
+</blockquote>
+<ul>
+<li>400 参数错误，不满足接口条件  </li>
+<li>401 访问身份错误，token错误 </li>
+<li>403 无权限  </li>
+<li>404 操作资源不存在</li>
+<li>405 请求方法不支持  </li>
+<li>409 要操作的资源以存在 ，服务端并发冲突 </li>
+<li>429 限流错误  </li>
+<li>500 内部错误，不可恢复的  </li>
+<li>503 服务不可用，可恢复异常，短时间之后可再试  </li>
+<li>504 调用超时</li>
+</ul>
+<h3 id="分页"><a href="#分页" class="headerlink" title="分页"></a>分页</h3><p>基于page，page_size<br>curl <a href="https://foo.bar.com/api/mall/v1/customers?page=1&amp;page_size=10">https://foo.bar.com/api/mall/v1/customers?page=1&amp;page_size=10</a>  </p>
+<h2 id="ES5如何实现继承"><a href="#ES5如何实现继承" class="headerlink" title="ES5如何实现继承"></a>ES5如何实现继承</h2><hr>
+<p><em>通过原型与原型链</em><br>ES6中可以通过extends来实现继承 </p>
+<h3 id="ES5实现四种方式"><a href="#ES5实现四种方式" class="headerlink" title="ES5实现四种方式"></a>ES5实现四种方式</h3><p>1.原型链继承<br>&#x3D;&#x3D;&#x3D;&#x3D;直接让子类的原型对象指向父类实例，当子类实例找不到对应<br>&#x3D;&#x3D;&#x3D;&#x3D;的属性和方法就向他的原型对象，也就是父实例上找<br>function Person() {<br>this.name &#x3D; ‘axb’<br>}<br>function Student()  {<br> Student.prototype &#x3D; new Persion();<br>}<br>Student.prototype.contructor &#x3D; Student;<br>const student &#x3D; new Student();<br>student.name &#x2F;&#x2F;axb<br>缺点，修改来自父类的引用类型变量会影响所有Student实例</p>
+<p>2.构造函数的继承<br>在子类中执行父类的构造函数，并为其绑定子类的this，让 父类构造函数<br>把成员属性和方法都挂在子类上<br>function Persion(name) {<br>this.name &#x3D; name}  </p>
+<p>function Student() {<br> Persion.apply(this,arguments);  &#x2F;&#x2F;apply可以劫持另一个对象大方法<br>&#x2F;&#x2F;继承另一个对象的属性<br>&#x2F;&#x2F;两个参数obj和args:obj也就是this将代替Person类中的this对象<br>&#x2F;&#x2F;args 作为参数传给Function也就是P传给Person<br>&#x2F;&#x2F; call 参数列表不同 Function.call(obj,[param1,[,param2,[,…[paramN]]]])<br>&#x2F;&#x2F; obj这个对象代替Function类中的this对象  params：一个参数列表 </p>
+<p>}<br>const student  &#x3D; new Student(‘lxy’)<br>student.name  &#x2F;&#x2F;lxy  </p>
+<p>3.组合式继承（结合以上两种的特点）<br>   function Person(name) {<br>    this.name &#x3D; name;<br>}<br>Person.prototype.getName &#x3D; function() {<br>    return this.name;<br>}<br>function Student() {<br>    &#x2F;&#x2F; 构造函数继承<br>    Person.apply(this, arguments)<br>}<br>&#x2F;&#x2F; 原型式继承<br>Student.prototype &#x3D; new Person();</p>
+<p>&#x2F;&#x2F; 原型的实例等于自身<br>Student.prototype.constructor &#x3D; Student;</p>
+<p>const student &#x3D; new Student(‘Back_kk’);<br>console.log(student.name); &#x2F;&#x2F; Back_kk<br>console.log(student.getName()); &#x2F;&#x2F; Back_kk<br>4.寄生式组合继承  </p>
+<p>Student.prototype &#x3D; Object.create(Persion.protytpe)</p>
+<p>Student.prototype.consructor &#x3D; Student</p>
+<p>** 总结：最初使用原型链继承，通过将子类实例的原型指向父类<br>实例获取父类的属性和方法，然后式构造函数继承，在子类构造函数中<br>调用父类构造函数并传子类this来获取父类属性和方法，但不能继承到<br>父类原型链上的属性和方法<br>后来有了组合式继承，新问题式每次都会执行两次构造方法，最终有了寄生式组合继承  </p>
+<h2 id="什么是防抖和节流"><a href="#什么是防抖和节流" class="headerlink" title="什么是防抖和节流"></a>什么是防抖和节流</h2><p>本质上是减少回调函数（resize，scroll，mousemove等事件）的调用频率<br>极大的浪费资源，降低前端性能<br>为了对这类事件调用次数限制，使用throttle（节流）和debounce（防抖）<br>减少调用频率  </p>
+<p>** 定义**：</p>
+<ul>
+<li><p>节流：n秒内只运行一次，若在n秒内重复触发，只生效一次<br>**简单写法  </p>
+</li>
+<li><p>防抖：n秒后再执行，若再n秒内被重复调用，则重新计时</p>
+</li>
+</ul>
+<h3 id="代码实现-节流"><a href="#代码实现-节流" class="headerlink" title="代码实现 (节流)"></a>代码实现 (节流)</h3><p>** 使用时间戳写法<br>function throttled1(fn,delay&#x3D;500) {  </p>
+<p>let oldtime &#x3D; Date.now() 获取调用时时间戳<br>return function(…args)  {<br>  let newtime &#x3D; Date.now()<br>  if(newtime-oldtime&gt;&#x3D;delay)  {<br>     fn.apply(null,args)<br>     oldtime &#x3D; Date.now()	<br>  }  </p>
+<p>  }<br>}  </p>
+<p>**使用定时器写法<br> inputDom.onInput &#x3D; function() {<br> if(t!&#x3D;&#x3D;null) {<br>   clearTimeout(t);<br> }<br> t &#x3D; setTimeout(()&#x3D;&gt;{<br> console.log(this.value)<br> },500)<br>}</p>
+<p>function throttled12(fn,delay&#x3D;500) {<br>let timer &#x3D; null<br>return function(…args) {<br> if(!timer)  {<br>   timer &#x3D; setTimeout(()&#x3D;&gt;{<br>   fn.apply(this.args)<br>     timer &#x3D; null<br>   },delay)<br> }<br>}<br>}</p>
+<h3 id="防抖代码实现"><a href="#防抖代码实现" class="headerlink" title="防抖代码实现"></a>防抖代码实现</h3><p>function debounce(func,wait)  {<br>let timeout;<br>return funtion()  {<br> let context &#x3D; this;<br> let args &#x3D; arguments;<br> clearTimeout(timerout)<br> timeout &#x3D; setTimeout(function() {<br> func.apply(context,args)<br> },wait);<br>}<br>}</p>
+<h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><p>函数防抖关注在一定事件连续触发的事件，只在最后执行一次<br>而节流一段时间只执行一次<br>函数节流：在一段时间操作中，每一段时间只执行一次，频率较高<br>的事件中用于提高性能  </p>
+<h2 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h2><p>** 防抖：连续的事件，只触发一次回调  </p>
+<ul>
+<li>搜索框 </li>
+<li>手机号，邮箱验证输入检测  </li>
+<li>矿口大小resize，只需要床头调整完成后，计算窗口大小，放置重复渲染<br>** 节流 </li>
+<li>滚动加载，加载更多或滚到底部监听 </li>
+<li>搜索框联想功能</li>
+</ul>
+<h2 id="x3D-x3D-的机制"><a href="#x3D-x3D-的机制" class="headerlink" title="&#x3D;&#x3D;的机制"></a>&#x3D;&#x3D;的机制</h2><h2 id="实现图片懒加载"><a href="#实现图片懒加载" class="headerlink" title="实现图片懒加载"></a>实现图片懒加载</h2><p>一种网页优化的方式，提高用户体验<br>进入网页时候只请求可视区域的图片资源<br>全部加载影响用户体验，浪费用户流量  </p>
+<h3 id="实现方式"><a href="#实现方式" class="headerlink" title="实现方式"></a>实现方式</h3><p>** HTML<br><img src=“./example.jpg” loading="lazy"><br>** js  </p>
+<ul>
+<li>拿到图片dom  </li>
+<li>判断图片是否到了可视区域  </li>
+<li>如果到了就设置src属性  </li>
+<li>绑定window的scroll事件，对其进行事件监听</li>
+</ul>
+<blockquote>
+<p>一开始把图片src放在data-src中，当处于可视范围时完成对src赋值<br>** img<br>   <img data-src="http://xx.com/xx.png" src="" /><br>   <img data-src="http://xx.com/xx.png" src="http://xx.com/xx.png" />  </p>
+</blockquote>
+<p>** div的背景图<br>  &lt;div<br>  data-src&#x3D;”<a href="http://xx.com/xx.png&quot;">http://xx.com/xx.png&quot;</a>  </p>
+<p>  style&#x3D;”background-image: none;background-size: cover;”  </p>
+<blockquote>
+</div>、
+</blockquote>
+<h3 id="dataset-同来为html普通标签设置自定义属性，方便存储一些数据"><a href="#dataset-同来为html普通标签设置自定义属性，方便存储一些数据" class="headerlink" title="dataset 同来为html普通标签设置自定义属性，方便存储一些数据"></a>dataset 同来为html普通标签设置自定义属性，方便存储一些数据</h3><p>dataset自定义属性的格式：data-xx，data-为固定写法，xx为与自定义属性相关字符串<br>在js中如何获取存入的属性？  </p>
+<ul>
+<li>获取到dom元素  </li>
+<li>dom.dataset.xx即可引用&#x2F;dom.getAttribute(‘data-xx’)</li>
+</ul>
+<h3 id="一个具体demo"><a href="#一个具体demo" class="headerlink" title="一个具体demo"></a>一个具体demo</h3><blockquote>
+<p>HTML部分省略，注意img加上data-src属性<br>js写法<br>  function lazyload()  {<br>  let viewHeight &#x3D; document.body.clientHeight &#x2F;&#x2F;获得可视区高度<br>  let imgs &#x3D; document.querySelectorAll(‘img[data-src]’)<br>  imgs.forEach((item,index)&#x3D;&gt;{<br>   if(item.dataset.src&#x3D;&#x3D;&#x3D;””) return  </p>
+</blockquote>
+<p>   let rect &#x3D; item.getBoundingClientRect()<br>   if(rect.bottom&gt;&#x3D;0 &amp;&amp; rect.top&lt;viewHeight) {<br>   item.src &#x3D; item.dataset.src<br>   item.removeAttribute(‘data-src’)</p>
+<p>   }<br>  })<br>  }</p>
+<p> window.addEventListener(“scroll”,lazyLoad)<br>** 加一个节流函数用于改善性能问题，减少触发事件<br>window.addEventListener(‘scroll’,throttle(lazyload,200))</p>
+<h2 id="sourcemap原理"><a href="#sourcemap原理" class="headerlink" title="sourcemap原理"></a>sourcemap原理</h2><h2 id="使用js二分查找"><a href="#使用js二分查找" class="headerlink" title="使用js二分查找"></a>使用js二分查找</h2><hr>
+<p><em>递归</em><br>function findByCut(arr,key) {<br> let start &#x3D; 0<br> let end &#x3D; arr.length-1<br> while(start&lt;end) {<br>  let mid &#x3D; parseInt((start+end)&#x2F;2);<br>  if(key&#x3D;&#x3D;arr[mid])  return mid;<br> } else if(key&gt;arr[mid]) {<br>   start &#x3D; mid+1<br> } else {<br>   end &#x3D; mid-1<br> }<br> return -1;<br>}<br><em>非递归</em>  </p>
+<p>&#x2F;&#x2F;arr:数组;key:查找的元素;start:开始索引;end:结束索引  </p>
+<p>function search2(arr,key,start,end){  </p>
+<pre><code>//首先判断当前起始索引是否大于结束索引,如果大于说明没有找到元素返回-1
+if(start &gt; end) &#123;
+    return -1;
+&#125;
+//如果手动调用不写start和end参数会当做第一次运行默认值
+//三元表达式:如果不写end参数则为undefined说明第一次调用所以结束索引为arr.length-1
+//如果是递归调用则使用传进来的参数end值
+var end= end===undefined ? arr.length-1 : end;  
+
+//如果 || 前面的为真则赋值start,如果为假则赋值后面的0
+//所以end变量没有写var end = end || arr.length-1;这样如果递归调用时候传参end为0时会被转化为false,导致赋值给arr.length-1造成无限循环溢出;
+var start=start || 0;  
+
+//取中间的索引
+var mid=parseInt((start+end)/2);  
+
+if(key==arr[mid])&#123;
+    //如果找到则直接返回
+    return mid;
+&#125;else if(key&lt;arr[mid])&#123;  
+
+    //如果key小于则递归调用自身,将结束索引设置为中间索引-1  
+    
+    return search2(arr,key,start,mid-1);
+&#125;else&#123;  
+
+    //如果key大于则递归调用自身,将起始索引设置为中间索引+1
+    return search2(arr,key,mid+1,end);
+&#125;
+</code></pre>
+<p>}<br>var arr &#x3D; [0,13,21,35,46,52,68,77,89,94];<br>search2(arr, 77); &#x2F;&#x2F;7<br>search2(arr, 99); &#x2F;&#x2F;-1</p>
+<h2 id="AST语法树是什么"><a href="#AST语法树是什么" class="headerlink" title="AST语法树是什么"></a>AST语法树是什么</h2><p>对源代码进行分词，标准时标识符，表达式，数字，等等<br>生成抽象数据结构树，AST树，然后使用树的深度优先遍历对AST树<br>进行遍历，对需要修改的地方修改，比如babel进行ES6-&gt;E三遇到钩子函数<br>就转变为普通函数，生成新的AST树最后generator获取代码  </p>
+<h2 id="flexible-js实现移动端适配的原理"><a href="#flexible-js实现移动端适配的原理" class="headerlink" title="flexible.js实现移动端适配的原理"></a>flexible.js实现移动端适配的原理</h2><p>通过对页面进行分份(rem)</p>
+<p>一个页面750px<br>分成100份<br>一份1A<br>所以1A * 100rem &#x3D; 750px<br>A &#x3D; 7.5px 基准为7.5px</p>
+<h2 id="js中sort方法如何实现的"><a href="#js中sort方法如何实现的" class="headerlink" title="js中sort方法如何实现的"></a>js中sort方法如何实现的</h2>]]></content>
+      <categories>
+        <category>面试题</category>
+      </categories>
+      <tags>
+        <tag>面试题</tag>
       </tags>
   </entry>
 </search>
